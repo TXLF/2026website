@@ -1,0 +1,1074 @@
+################# Banner ###################
+banner:
+  enable : true
+  heading : "Texas Linux Festival"
+  heading_2 : "Nov 6-7, 2026"
+  content : "Austin, TX"
+  timer:
+    enable : true
+    year : 2026
+    month : 11
+    day : 6
+  button:
+    enable : true
+    label : "get tickets now"
+    # link : "pricing/"
+    # @ilan - fix this link for a signup page for info
+    # label: "sign up for updates!"
+    link: "https://register.linuxfests.org/reg6/"
+  subscribe:
+    enable : true
+    label: "Subscribe to get updates!"
+    listmonk_form_id: 9cdc23bf-cb55-4afc-ae39-e55dc7badc5b
+
+
+################# About ###################
+about:
+  enable : true
+  title : "About _Texas Linux Festival_"
+  image : "images/about-logo.png"
+  content : |
+    Texas Linux Fest is the first state-wide annual community-run conference for Linux and open source software users and enthusiasts from around the Lone Star State. Much like SCALE in Los Angeles, Ohio Linux Fest in Columbus, and Linux Fest Northwest – and an ever-growing list of successful regional shows – Texas Linux Fest is a weekend event geared towards individual users, rather than an expensive multi-workday expo that might cater primarily to sponsored attendees. Whether you use free software and Linux at home, in your place of business, in your school or non-profit, or you are simply curious, Texas Linux Fest offers something for you.
+    <br><br>
+    Texas Linux Festival is a non-profit (501c) community based organization that is run by volunteers to organize and provide the TXLF conferences. The first official TXLF conference was held in 2010 in Austin, TX.
+  button_solid:
+    enable : true
+    label : "Buy tickets"
+    link : "pricing/"
+  button_outline:
+    enable : true
+    label : "Read more"
+    link : "about/"
+
+
+################# Speaker ###################
+speakers:
+  enable: false
+  cfp_open: false
+  cfp_link: https://www.papercall.io/txlf2026
+  cfp_label: "Submit a talk to our _Call For Papers_"
+  title : "Who is _Speaking?_"
+  title_cfp: "Our _Call for Papers_ is Open!"
+  content_cfp_topics:
+  - Linux kernel and system development
+  - Open-source software in enterprise environments
+  - DevOps and continuous integration/continuous deployment (CI/CD)
+  - Kubernetes, Docker, Cloud computing, virtualization, Containerization & Orchestration
+  - Internet of Things (IoT), Raspberry Pi’s, and embedded systems
+  - Host & Container Networking, eBPF
+  - Observability
+  - Linux gaming and graphics
+  - Privacy, security, and encryption
+  - Artificial Intelligence (AI) and Machine Learning (ML) on Linux
+  - Linux distributions and desktop environments
+  - Linux in education and academia
+  - Introduction for new users to Linux, OSS Applications or Free Software
+  content_cfp: "We invite you to be a part of this exceptional event by sharing your expertise and passion with the community. We are seeking engaging and insightful presentations that cover a broad range of topics related to Linux, open-source software, and the wider technology ecosystem. Whether you have hands-on experience, a new research breakthrough, or an inspiring vision for the future of Linux, we want to hear from you!"
+  more_button_text: "Other speakers"
+  more_button_link: "speakers/"
+
+  # speaker items are coming from "content/speakers" folder
+
+###################### Tab ####################
+tab:
+  enable : false
+  title : "Event _Schedule_"
+  content : "The schedule of events is subject to change without prior notifications."
+  tablist:
+  # tab item
+  - name : "Day 1"
+    date : "October 3"
+    tablist_items:
+
+    ## 9:00 AM
+
+    - speaker: Matthew Boehm
+      speaker_image: images/speakers/matthew-boehm-thumb.jpg
+      speaker_link: speakers/matthew-boehm/
+      talk_link: talks/valkey-101-keep-calm-and-fork-on/
+      subject: "Valkey 101: Keep Calm, and Fork On (Sponsor: Percona)"
+      venue: Lil Tex
+      time: "9:00 AM - 10:30 AM"
+      column: 4
+      start_hour: 9
+      start_minute: 0
+      end_hour: 10
+      end_minute: 30
+
+    - speaker: Aleksey Tsalolikhin
+      speaker_image: images/speakers/aleksey-tsalolikhin-thumb.jpg
+      speaker_link: speakers/aleksey-tsalolikhin/
+      talk_link: talks/power-editing-with-vi-basics/
+      subject: "Power Editing with Vi: Basics"
+      venue: Balcones
+      time: "9:00 AM - 12:00 PM"
+      column: 5
+      start_hour: 9
+      start_minute: 0
+      end_hour: 12
+      end_minute: 0
+
+    - speaker: Jon Roberts
+      speaker_image: images/speakers/jon-roberts-thumb.jpg
+      speaker_link: speakers/jon-roberts/
+      talk_link: talks/wsl-meet-the-bastard-i-adopted-and-learn-to-play-with-them/
+      subject: "WSL: Meet the bastard I adopted and learn to play with them."
+      venue: Stadium
+      time: "9:00 AM - 12:00 PM"
+      column: 6
+      start_hour: 9
+      start_minute: 0
+      end_hour: 12
+      end_minute: 0
+
+    - speaker: Caleb Schoepp
+      speaker_image: images/speakers/caleb-schoepp-thumb.jpg
+      speaker_link: speakers/caleb-schoepp/
+      talk_link: talks/truly-portable-code-serverless-webassembly-in-a-distributed-world/
+      subject: "Truly Portable Code: Serverless WebAssembly in a Distributed World"
+      venue: Bevo
+      time: "9:00 AM - 10:30 AM"
+      column: 7
+      start_hour: 9
+      start_minute: 0
+      end_hour: 10
+      end_minute: 30
+
+    - speaker: Ken Crandall
+      speaker_image: images/speakers/ken-crandall-thumb.jpg
+      speaker_link: speakers/ken-crandall/
+      talk_link: talks/build-your-own-cloud-batteries-included/
+      subject: "Build Your Own Cloud: Batteries Included! (Sponsor: Rackspace)"
+      venue: Big Tex
+      time: "9:15 AM - 11:15 AM"
+      column: 3
+      start_hour: 9
+      start_minute: 15
+      end_hour: 11
+      end_minute: 15
+
+    - subject: TXLF Expo Booths
+      venue: Atrium
+      column: 2
+      time: "10:00 AM - 5:00 PM"
+      start_hour: 10
+      start_minute: 0
+      end_hour: 17
+      end_minute: 0
+
+    - speaker: Matthew Boehm
+      speaker_image: images/speakers/matthew-boehm-thumb.jpg
+      speaker_link: speakers/matthew-boehm/
+      talk_link: talks/false-positives-real-gains-valkeys-probabilistic-filters/
+      subject: "False Positives, Real Gains: Valkey's Probabilistic Filters (Sponsor: Percona)"
+      venue: Lil Tex
+      time: "10:30 AM - 12:00 PM"
+      column: 4
+      start_hour: 10
+      start_minute: 30
+      end_hour: 12
+      end_minute: 0
+
+    - speaker: Sean Thrailkill
+      speaker_image: images/speakers/sean-thrailkill-thumb.jpg
+      speaker_link: speakers/sean-thrailkill/
+      talk_link: talks/create-your-own-bootable-container/
+      subject: Create Your Own Bootable Container!
+      venue: Bevo
+      time: "10:30 AM - 12:00 PM"
+      column: 7
+      start_hour: 10
+      start_minute: 30
+      end_hour: 12
+      end_minute: 0
+
+    - speaker: Josh Villarreal
+      speaker_image: images/speakers/josh-villarreal-thumb.jpg
+      speaker_link: speakers/josh-villarreal/
+      talk_link: talks/from-open-source-to-open-talk-meet-the-experts/
+      subject: "From Open Source to Open Talk: Meet the Experts (Sponsor: Rackspace)"
+      venue: Big Tex
+      time: "11:15 AM - 12:00 PM"
+      column: 3
+      start_hour: 11
+      start_minute: 15
+      end_hour: 12
+      end_minute: 0
+
+    ## 12:00 PM
+
+    - subject: Lunch
+      time: "12:00 PM - 1:30 PM"
+      start_hour: 12
+      start_minute: 0
+      end_hour: 13
+      end_minute: 30
+      column: 8
+
+    ## 1:30 PM
+
+    - speaker: David Duncan
+      speaker_image: images/speakers/david-duncan-thumb.jpg
+      speaker_link: speakers/david-duncan/
+      talk_link: talks/the-great-texas-agent-off-ramalama-podman-and-diy-ai-bots/
+      subject: "The Great Texas Agent-Off: RamaLama, Podman, and DIY AI Bots!"
+      venue: Balcones
+      time: "1:30 PM - 4:30 PM"
+      column: 5
+      start_hour: 13
+      start_minute: 30
+      end_hour: 16
+      end_minute: 30
+
+    - speaker: Alex Juarez
+      speaker_image: images/speakers/alex-juarez-thumb.jpg
+      speaker_link: speakers/alex-juarez/
+      talk_link: talks/keep-it-local-intro-to-learning-kubernetes-using-minikube/
+      subject: "Keep it Local: Intro to learning Kubernetes using minikube"
+      venue: Stadium
+      time: "1:30 PM - 4:30 PM"
+      column: 6
+      start_hour: 13
+      start_minute: 30
+      end_hour: 16
+      end_minute: 30
+
+    - speaker: Ryan Edge
+      speaker_image: images/speakers/ryan-edge-thumb.jpg
+      speaker_link: speakers/ryan-edge/
+      talk_link: talks/accelerating-linux-application-development-with-flutter-a-hands-on-workshop/
+      subject: "Accelerating Linux Application Development with Flutter: A Hands-on Workshop"
+      venue: Bevo
+      time: "1:30 PM - 3:00 PM"
+      column: 7
+      start_hour: 13
+      start_minute: 30
+      end_hour: 15
+      end_minute: 0
+
+    - speaker: Ken Crandall
+      speaker_image: images/speakers/ken-crandall-thumb.jpg
+      speaker_link: speakers/ken-crandall/
+      talk_link: talks/build-your-own-cloud-batteries-included/
+      subject: "Build Your Own Cloud: Batteries Included! (Sponsor: Rackspace)"
+      venue: Big Tex
+      time: "1:45 PM - 3:45 PM"
+      column: 3
+      start_hour: 13
+      start_minute: 45
+      end_hour: 15
+      end_minute: 45
+
+    ## 2:00 PM
+
+    - speaker: Raul Leite
+      speaker_image: images/speakers/raul-leite-thumb.jpg
+      speaker_link: speakers/raul-leite/
+      talk_link: talks/building-ai-workloads-locally-with-podman/
+      subject: "Building AI Workloads locally with Podman (Sponsor: Red Hat)"
+      venue: Lil Tex
+      time: "2:00 PM - 3:00 PM"
+      column: 4
+      start_hour: 14
+      start_minute: 0
+      end_hour: 15
+      end_minute: 0
+
+    ## 3:00 PM
+
+    - speaker: Cody Lee Cochran
+      speaker_image: images/speakers/cody-lee-cochran-thumb.jpg
+      speaker_link: speakers/cody-lee-cochran/
+      talk_link: talks/pipelines-as-a-service-codifying-workflows-other-tribal-knowledge/
+      subject: "Pipelines as a Service: Codifying Workflows & Other Tribal Knowledge"
+      venue: Bevo
+      time: "3:00 PM - 4:30 PM"
+      column: 7
+      start_hour: 15
+      start_minute: 0
+      end_hour: 16
+      end_minute: 30
+
+    - speaker: Faizal Khader
+      speaker_image: images/speakers/faizal-khader-thumb.jpg
+      speaker_link: speakers/faizal-khader/
+      talk_link: talks/explore-deploying-and-managing-large-language-models-with-red-hat-enterprise-linux-10-and-red-hat-ai-serving/
+      subject: "Explore Deploying and Managing Large Language Models with Red Hat Enterprise Linux 10 and Red Hat AI Serving (Sponsor: Red Hat)"
+      venue: Lil Tex
+      time: "3:30 PM - 4:30 PM"
+      column: 4
+      start_hour: 15
+      start_minute: 30
+      end_hour: 16
+      end_minute: 30
+
+    - speaker: Josh Villarreal
+      speaker_image: images/speakers/josh-villarreal-thumb.jpg
+      speaker_link: speakers/josh-villarreal/
+      talk_link: talks/from-open-source-to-open-talk-meet-the-experts/
+      subject: "From Open Source to Open Talk: Meet the Experts (Sponsor: Rackspace)"
+      venue: Big Tex
+      time: "3:45 AM - 4:30 PM"
+      column: 3
+      start_hour: 15
+      start_minute: 45
+      end_hour: 16
+      end_minute: 30
+
+    - subject: Lightning talks
+      venue: Big Tex
+      time: "4:45 PM - 5:15 PM"
+      column: 3
+      start_hour: 16
+      start_minute: 45
+      end_hour: 17
+      end_minute: 15
+
+  # tab item
+  - name : "Day 2"
+    date : "October 4"
+    tablist_items:
+
+    ## 9:00 AM
+
+    - speaker: Dustin Kirkland
+      speaker_image: images/speakers/dustin-kirkland-thumb.jpg
+      speaker_link: speakers/dustin-kirkland/
+      subject: TXLF Keynote
+      venue: Big Tex
+      time: "9:00 AM - 9:45 AM"
+      column: 3
+      start_hour: 9
+      start_minute: 0
+      end_hour: 9
+      end_minute: 45
+
+    ## 10:00 AM
+
+    - subject: TXLF Expo Booths
+      venue: Atrium
+      column: 2
+      time: "10:00 AM - 5:00 PM"
+      start_hour: 10
+      start_minute: 0
+      end_hour: 17
+      end_minute: 0
+
+    - speaker: Ignat Korchagin
+      speaker_image: images/speakers/ignat-korchagin-thumb.jpg
+      speaker_link: speakers/ignat-korchagin/
+      talk_link: talks/an-engineers-guide-to-linux-kernel-upgrades/
+      subject: An engineer's guide to Linux Kernel upgrades
+      venue: Big Tex
+      time: "10:00 AM - 10:45 AM"
+      column: 3
+      start_hour: 10
+      start_minute: 0
+      end_hour: 10
+      end_minute: 45
+
+    - speaker: "Swetha Garaga"
+      speaker_image: images/speakers/swetha-garaga-thumb.jpg
+      speaker_link: speakers/swetha-garaga/
+      talk_link: talks/human-centered-automation-equity-and-efficiency-in-modern-warehousing/
+      subject: "Human‑Centered Automation: Equity and Efficiency in Modern Warehousing"
+      venue: Lil Tex
+      time: "10:00 AM - 10:45 AM"
+      column: 4
+      start_hour: 10
+      start_minute: 0
+      end_hour: 10
+      end_minute: 45
+
+    - speaker: "Bramhanand Lingala"
+      speaker_image: images/speakers/bramhanand-lingala-thumb.jpg
+      speaker_link: speakers/bramhanand-lingala/
+      talk_link: talks/adopting-nosql-at-scale-strategic-models-performance-trade-offs-and-integration-pitfalls/
+      subject: "Adopting NoSQL at Scale: Strategic Models, Performance Trade-Offs, and Integration Pitfalls"
+      venue: Balcones
+      time: "10:00 AM - 10:45 AM"
+      column: 5
+      start_hour: 10
+      start_minute: 0
+      end_hour: 10
+      end_minute: 45
+
+    - speaker: Fred Lawler
+      speaker_image: images/speakers/fred-lawler-thumb.jpg
+      speaker_link: speakers/fred-lawler/
+      talk_link: talks/containers-without-docker/
+      subject: Containers without Docker
+      venue: Stadium
+      time: "10:00 AM - 10:45 AM"
+      column: 6
+      start_hour: 10
+      start_minute: 0
+      end_hour: 10
+      end_minute: 45
+
+    - speaker: Sai Durga Rithvik Oruganti
+      speaker_image: images/speakers/sai-durga-rithvik-oruganti-thumb.jpg
+      speaker_link: speakers/sai-durga-rithvik-oruganti/
+      talk_link: talks/lessons-they-dont-teach-you-in-school-a-year-in-high-performance-computing/
+      subject: "Lessons They Don't Teach You in School: A Year in High-Performance Computing"
+      venue: Bevo
+      time: "10:00 AM - 10:45 AM"
+      column: 7
+      start_hour: 10
+      start_minute: 0
+      end_hour: 10
+      end_minute: 45
+
+    ## 11:00 AM
+
+    - speaker: Kory Heard
+      speaker_image: images/speakers/kory-heard-thumb.jpg
+      speaker_link: speakers/kory-heard/
+      talk_link: talks/the-design-and-implementation-of-the-darwin-operating-system/
+      subject: "The Design & Implementation of the Darwin Operating System"
+      venue: Big Tex
+      time: "11:00 AM - 11:45 AM"
+      column: 3
+      start_hour: 11
+      start_minute: 0
+      end_hour: 11
+      end_minute: 45
+
+    - speaker: Thomas Cameron
+      speaker_image: images/speakers/thomas-cameron-thumb.jpg
+      speaker_link: speakers/thomas-cameron/
+      talk_link: talks/getting-started-with-ansible-on-linux/
+      subject: Getting Started with Ansible on Linux
+      venue: Lil Tex
+      time: "11:00 AM - 11:45 AM"
+      column: 4
+      start_hour: 11
+      start_minute: 0
+      end_hour: 11
+      end_minute: 45
+
+    - speaker: Matthew Penaroza
+      speaker_image: images/speakers/matthew-penaroza-thumb.jpg
+      speaker_link: speakers/matthew-penaroza/
+      talk_link: talks/mastering-database-selection-for-system-design/
+      subject: Mastering Database Selection for System Design
+      venue: Balcones
+      time: "11:00 AM - 11:45 AM"
+      column: 5
+      start_hour: 11
+      start_minute: 0
+      end_hour: 11
+      end_minute: 45
+
+    - speaker: Mike Schwartz
+      speaker_image: images/speakers/mike-schwartz-thumb.jpg
+      speaker_link: speakers/mike-schwartz/
+      talk_link: talks/security-that-scales-how-cedar-is-rewriting-the-rules-of-access/
+      subject: "Security That Scales: How Cedar is Rewriting the Rules of Access"
+      venue: Stadum
+      time: "11:00 AM - 11:45 AM"
+      column: 6
+      start_hour: 11
+      start_minute: 0
+      end_hour: 11
+      end_minute: 45
+
+    - speaker: Eduardo Robles
+      speaker_image: images/speakers/eduardo-robles-thumb.jpg
+      speaker_link: speakers/eduardo-robles/
+      talk_link: talks/i-got-malware-btw/
+      subject: "I got Malware, BTW. A quick look at the rising trend of Linux Malware."
+      venue: Bevo
+      time: "11:00 AM - 11:45 AM"
+      column: 7
+      start_hour: 11
+      start_minute: 0
+      end_hour: 11
+      end_minute: 45
+
+    ## 12:00 PM
+
+    - subject: Lunch
+      time: "12:00 PM - 2:00 PM"
+      start_hour: 12
+      start_minute: 0
+      end_hour: 14
+      end_minute: 0
+      column: 8
+
+    ## 2:00 PM
+
+    - speaker: Chris Arges
+      speaker_image: images/speakers/chris-arges-thumb.jpg
+      speaker_link: speakers/chris-arges/
+      talk_link: talks/verified-debian-packaging-at-scale/
+      subject: Verified Debian Packaging at Scale
+      venue: Big Tex
+      time: "2:00 PM - 2:45 PM"
+      column: 3
+      start_hour: 14
+      start_minute: 0
+      end_hour: 14
+      end_minute: 45
+
+    - speaker: Major Hayden
+      speaker_image: images/speakers/major-hayden-thumb.png
+      speaker_link: speakers/major-hayden/
+      talk_link: talks/dont-tell-me-rag-is-easy/
+      subject: Don't tell me RAG is easy
+      venue: Lil Tex
+      time: "2:00 PM - 2:45 PM"
+      column: 4
+      start_hour: 14
+      start_minute: 0
+      end_hour: 14
+      end_minute: 45
+
+    - speaker: Mario Limonciello
+      speaker_image: images/speakers/mario-limonciello-thumb.jpg
+      speaker_link: speakers/mario-limonciello/
+      talk_link: talks/steamos-on-the-lenovo-go-s/
+      subject: SteamOS™ on the Lenovo™ Go S
+      venue: Balcones
+      time: 2:00 PM - 2:45 PM
+      column: 5
+      start_hour: 14
+      start_minute: 0
+      end_hour: 14
+      end_minute: 45
+
+    - speaker: Anupama Pathirage
+      speaker_image: images/speakers/anupama-pathirage-thumb.jpg
+      speaker_link: speakers/anupama-pathirage/
+      talk_link: talks/effortless-cloud-integrations-ballerina-for-kubernetes-and-beyond/
+      subject: "Effortless Cloud Integrations: Ballerina for Kubernetes and Beyond"
+      venue: Stadium
+      time: "2:00 PM - 2:45 PM"
+      column: 6
+      start_hour: 14
+      start_minute: 0
+      end_hour: 14
+      end_minute: 45
+
+    - speaker: Michael Troutman
+      speaker_image: images/speakers/michael-troutman-thumb.jpg
+      speaker_link: speakers/michael-troutman/
+      talk_link: talks/lifting-the-documentation-burden-with-open-source-tools-and-resources/
+      subject: Lifting the Documentation Burden with Open Source Tools and Resources
+      venue: Bevo
+      time: "2:00 PM - 2:45 PM"
+      column: 7
+      start_hour: 14
+      start_minute: 0
+      end_hour: 14
+      end_minute: 45
+
+    ## 3:00 PM
+
+    - speaker: Robert Callicotte
+      speaker_image: images/speakers/robert-callicotte-thumb.jpg
+      speaker_link: speakers/robert-callicotte/
+      talk_link: talks/running-centos-stream-in-production/
+      subject: Running CentOS Stream in Production
+      venue: Big Tex
+      time: "3:00 PM - 3:45 PM"
+      column: 3
+      start_hour: 15
+      start_minute: 0
+      end_hour: 15
+      end_minute: 45
+
+    - speaker: Sophia Solomon
+      speaker_image: images/speakers/sophia-solomon-thumb.jpg
+      speaker_link: speakers/sophia-solomon/
+      talk_link: talks/grep-cant-help-you-now-observability-for-llms/
+      subject: "Grep Can't Help You Now: Observability for LLMs"
+      venue: Lil Tex
+      time: "3:00 PM - 3:45 PM"
+      column: 4
+      start_hour: 15
+      start_minute: 0
+      end_hour: 15
+      end_minute: 45
+
+    - speaker: Carl Perry
+      speaker_image: images/speakers/carl-perry-thumb.jpg
+      speaker_link: speakers/carl-perry/
+      talk_link: talks/linux-on-risc-v-where-we-are-where-were-going-and-how-you-can-jump-in/
+      subject: "Linux on RISC-V: Where we are, where we're going, and how you can jump in"
+      venue: Balcones
+      time: "3:00 PM - 3:45 PM"
+      column: 5
+      start_hour: 15
+      start_minute: 0
+      end_hour: 15
+      end_minute: 45
+
+    - speaker: Mayur Bhandari
+      speaker_image: images/speakers/mayur-bhandari-thumb.jpg
+      speaker_link: speakers/mayur-bhandari/
+      talk_link: talks/building-smart-cities-with-open-source/
+      subject: "Building Smart Cities with Open Source: How Linux-Based Distributed Systems Are Transforming Urban Infrastructure"
+      venue: Stadium
+      time: "3:00 PM - 3:45 PM"
+      column: 6
+      start_hour: 15
+      start_minute: 0
+      end_hour: 15
+      end_minute: 45
+
+    - speaker: Matt Moen
+      speaker_image: images/speakers/matt-moen-thumb.jpg
+      speaker_link: speakers/matt-moen/
+      talk_link: talks/encrypting-your-infrastructure-without-getting-fired/
+      subject: Encrypting Your Infrastructure Without Getting Fired
+      venue: Bevo
+      time: "3:00 PM - 3:45 PM"
+      column: 7
+      start_hour: 15
+      start_minute: 0
+      end_hour: 15
+      end_minute: 45
+
+    ## 4:00 PM
+
+    - speaker: Carl Thompson
+      speaker_image: images/speakers/carl-thompson-thumb.jpg
+      speaker_link: speakers/carl-thompson/
+      talk_link: talks/demystifying-selinux/
+      subject: Demystifying SELinux
+      venue: Big Tex
+      time: "4:00 PM - 4:45 PM"
+      column: 3
+      start_hour: 16
+      start_minute: 0
+      end_hour: 16
+      end_minute: 45
+
+    - speaker: JJ Asghar
+      speaker_image: images/speakers/jj-asghar-thumb.jpg
+      speaker_link: speakers/jj-asghar/
+      talk_link: talks/using-open-source-ai-and-linux-to-help-medical-school-students/
+      subject: Using Open Source AI and Linux to help Medical School Students
+      venue: Lil Tex
+      time: "4:00 PM - 4:45 PM"
+      column: 4
+      start_hour: 16
+      start_minute: 0
+      end_hour: 16
+      end_minute: 45
+
+    - speaker: Joshua Lee
+      speaker_image: images/speakers/joshua-lee-thumb.jpg
+      speaker_link: speakers/joshua-lee/
+      talk_link: talks/magical-mystery-tour-a-roundup-of-observability-datastores/
+      subject: "Magical Mystery Tour: A Roundup of Observability Datastores"
+      venue: Balcones
+      time: "4:00 PM - 4:45 PM"
+      column: 5
+      start_hour: 16
+      start_minute: 0
+      end_hour: 16
+      end_minute: 45
+
+    - speaker: Hoang Dinh Nguyen
+      speaker_image: images/speakers/hoang-dinh-nguyen-thumb.jpg
+      speaker_link: speakers/hoang-dinh-nguyen/
+      talk_link: talks/kusion-and-internal-developer-platform-optimize-the-software-develement-process/
+      subject: "Kusion and Internal Developer Platform: Optimize the Software Development Process"
+      venue: Stadium
+      time: "4:00 PM - 4:45 PM"
+      column: 6
+      start_hour: 16
+      start_minute: 0
+      end_hour: 16
+      end_minute: 45
+
+    - speaker: Brett Estrade
+      speaker_image: images/speakers/brett-estrade-thumb.jpg
+      speaker_link: speakers/brett-estrade/
+      talk_link: talks/real-time-hurricane-storm-surge-prediction-using-open-source/
+      subject: Real-Time Hurricane Storm Surge Prediction using Open Source
+      venue: Bevo
+      time: "4:00 PM - 4:45 PM"
+      column: 7
+      start_hour: 16
+      start_minute: 0
+      end_hour: 16
+      end_minute: 45
+
+    ## 5:00 PM
+
+    - speaker: Wes Payne
+      speaker_image: images/speakers/wes-payne-thumb.jpg
+      speaker_link: speakers/wes-payne/
+      talk_link: talks/mesh-network-sidecars-for-nixos-services/
+      subject: Mesh Network Sidecars for NixOS Services
+      venue: Big Tex
+      time: "5:00 PM - 5:45 PM"
+      column: 3
+      start_hour: 17
+      start_minute: 0
+      end_hour: 17
+      end_minute: 45
+
+    - speaker: Sudheer Obbu
+      speaker_image: images/speakers/sudheer-obbu-thumb.jpg
+      speaker_link: speakers/sudheer-obbu/
+      talk_link: talks/securing-ai-workloads-with-zero-trust-building-resilient-cloud-native-systems-on-linux/
+      subject: "Securing AI Workloads with Zero Trust: Building Resilient Cloud-Native Systems on Linux"
+      venue: Lil Tex
+      time: "5:00 PM - 5:45 PM"
+      column: 4
+      start_hour: 17
+      start_minute: 0
+      end_hour: 17
+      end_minute: 45
+
+    - speaker: Steve Anness
+      speaker_image: images/speakers/steve-anness-thumb.png
+      speaker_link: speakers/steve-anness/
+      talk_link: talks/auto-instrument-all-the-things-with-beyla/
+      subject: Auto-instrument all the things with Beyla
+      venue: Balcones
+      time: "5:00 PM - 5:45 PM"
+      column: 5
+      start_hour: 17
+      start_minute: 0
+      end_hour: 17
+      end_minute: 45
+
+    - speaker: Dave McAllister
+      speaker_image: images/speakers/dave-mcallister-thumb.jpg
+      speaker_link: speakers/dave-mcallister/
+      talk_link: talks/exploring-kubernetes-gateway-api-and-nginx-gateway-fabric/
+      subject: Exploring Kubernetes Gateway API and NGINX Gateway Fabric
+      venue: Stadium
+      time: "5:00 PM - 5:45 PM"
+      column: 6
+      start_hour: 17
+      start_minute: 0
+      end_hour: 17
+      end_minute: 45
+
+    - speaker: Willard Nilges
+      speaker_image: images/speakers/willard-nilges-thumb.jpg
+      speaker_link: speakers/willard-nilges/
+      talk_link: talks/lessons-learned-building-observability-for-a-non-profit/
+      subject: Lessons Learned Building Observability for a Non-Profit
+      venue: Bevo
+      time: "5:00 PM - 5:45 PM"
+      column: 7
+      start_hour: 17
+      start_minute: 0
+      end_hour: 17
+      end_minute: 45
+
+    ## 6:00 PM
+
+    - subject: Closing remarks
+      venue: Big Tex
+      time: "6:00 PM - 6:15 PM"
+      column: 3
+      start_hour: 18
+      start_minute: 0
+      end_hour: 18
+      end_minute: 15
+
+    - subject: "TXLF After Party"
+      talk_link: "party/"
+      venue: Lavaca Street Bar
+      time: "7:30 PM - 10:00 PM"
+      column: 8
+      start_hour: 19
+      start_minute: 30
+      end_hour: 22
+      end_minute: 0
+
+############ Interviews ######################
+interviews:
+  enable: false
+  title: "Interviews"
+  content: "TXLF 2026 Interviews"
+
+
+############ Registration ####################
+registration:
+  enable : false
+  title : "Register to _Texas Linux Festival 2026_"
+  content : "**Registration for Texas Linux Festival 2026 is now open!**"
+  form_action : "#" # works with formspree.io
+  hide_form: true
+  link : "pricing/"
+  button_text: "Register now!"
+
+  funfacts:
+  - name : "30 Speakers"
+    icon : "fa-microphone"
+
+  - name : "500+ Seats"
+    icon : "fa-flag"
+
+  - name : "500+ tickets"
+    icon : "fa-ticket"
+
+  - name : "2 day event"
+    icon : "fa-calendar"
+
+
+
+
+############ Pricing ####################
+pricing:
+  enable : false
+  title : "Get _Tickets_"
+  content : "Event Pricing for Texas Linux Festival 2026."
+  pricing_table:
+  - name : "Supporter"
+    price : "100.00"
+    price_per : "Person"
+    button_link : "https://register.linuxfests.org/reg6/"
+    sold_out : true
+    features:
+    - "Full access to the event"
+    - "Helps make TXLF possible!"
+    - "TXLF swag pack"
+
+  - name : "Enthusiast"
+    price : "75.00"
+    price_per : "Person"
+    button_link : "https://register.linuxfests.org/reg6/"
+    sold_out : false
+    features:
+    - "Full access to the event"
+    - "Allows students, hobbyists, retired, unemployed, etc. to access this community resource. If you're attending professionally, please consider the 'Supporter' level."
+    - "Does not include the swag pack"
+
+
+sponsorship_pricing:
+  enable : true
+  title : "Sponsorship _Prospectus_"
+  content : "Sponsorship pricing for Texas Linux Festival 2026. Help make TXLF possible!"
+  pricing_table:
+  - name: |
+      Diamond
+    button_text: "We still have an opening for our Diamond Sponsor!"
+    price : "8000"
+    price_per : "Sponsor"
+    button_link : "contact/"
+    description: "The Diamond Sponsorship package provides your organization with top level visibility at the Texas Linux Fest. This exclusive package will demonstrate your organization’s leadership role in the Linux and open-source community."
+    features:
+    - "Prominent logo placement on the website"
+    - "Prominent logo placement in signage"
+    - "3 table-length booth in the expo hall"
+    - "Full day vendor tutorial/workshop slot"
+    - "First logo listing on website"
+    - "First choice of booth location"
+    - "First opportunity to host a conference reception"
+    - "Helps make TXLF possible!"
+
+  - name : "Platinum"
+    price : "6500"
+    price_per : "Sponsor"
+    button_link : "contact/"
+    description: "The Platinum Sponsorship package allows your organization to participate in high profile marketing opportunities at the Texas Linux Fest."
+    features:
+    - "Prominent logo placement on the website"
+    - "Prominent logo placement in signage"
+    - "3 table-length booth in the expo hall"
+    - "Full day vendor tutorial/workshop slot"
+    - "Option for Tote Bag Insert"
+    - "Helps make TXLF possible!"
+
+  - name : "Gold"
+    price : "5000"
+    price_per : "Sponsor"
+    button_link : "contact/"
+    description: "The Gold Sponsorship package allows your organization to participate in high profile marketing opportunities at the Texas Linux Fest."
+    features:
+    - "Logo placement on the website"
+    - "2 table-length booth in the expo hall"
+    - "Half day vendor tutorial/workshop slot"
+    - "Option for Tote Bag Insert"
+    - "Helps make TXLF possible!"
+
+  - name : "Silver"
+    price : "2500"
+    price_per : "Sponsor"
+    button_link : "contact/"
+    description: "The Silver Sponsorship package allows your organization to participate in high profile marketing opportunities at the Texas Linux Fest."
+    features:
+    - "Logo placement on the website"
+    - "Booth in the expo hall"
+    - "Helps make TXLF possible!"
+
+  - name : "Community Exhibitor"
+    button_text: "I'm interested in being a Community Exhibitor"
+    price : "0"
+    price_per : "Sponsor"
+    button_link : "contact/"
+    description: "This package is only for non-profits and approved community organizations wishing to support Texas Linux Festival. It is expected that all people running the booth would be volunteers. Any fiscal contributions are accepted!"
+    features:
+    - "Logo placement on the website"
+    - "Booth in the expo hall"
+
+############### Call to action ############
+call_to_action:
+  enable : false
+  title : "Get Tickets _Now!_"
+  image : "images/speakers/speaker-ticket.png"
+  content : "Register for TXLF2026 today!"
+  button:
+    enable : true
+    label : "Buy tickets"
+    link : "pricing/"
+
+############### Sponsors ##################
+sponsors:
+  enable : false
+  hide_sponsors_on_homepage: false
+  title : "Our _Sponsors_"
+  content : "Our sponsors allow us to continue to provide conferences!"
+  content_hidden_sponsors: "Our sponsors allow us to continue to provide conferences!"
+  button:
+    enable : true
+    label : "Become a sponsor"
+    link : "/sponsorship"
+  sponsor_group:
+  #- name: "Diamond sponsor"
+  #  sponsor_item:
+  #  - name: "Scinary Cybersecurity"
+  #    logo: "images/sponsors/diamond-spon-one.png"
+  #    link : "https://www.scinary.com"
+
+  - name : "Platinum Sponsors"
+    sponsor_item:
+      - name: "Rackspace"
+        logo: "images/sponsors/rackspace.png"
+        link: "https://www.rackspace.com/cloud/openstack-flex"
+
+  - name : "Gold Sponsors"
+    sponsor_item:
+      - name : "redhat"
+        logo : "images/sponsors/redhat.svg"
+        link: "https://www.redhat.com"
+
+      - name: "elastic"
+        logo: "images/sponsors/elastic.svg"
+        link: "https://www.elastic.co"
+
+      - name: "Percona"
+        logo: "images/sponsors/percona.png"
+        link: "https://www.percona.com/"
+  #
+  #    - name: "rezoomex"
+  #      logo: "images/sponsors/rezoomex_logo.svg"
+  #      link: "https://rezoomex.com"
+  #
+  #    - name: "Akuity"
+  #      logo: "images/sponsors/akuity.svg"
+  #      link: "https://akuity.io"
+  #
+  #    - name: "AWS"
+  #      logo: "images/sponsors/aws.svg"
+  #      link: "https://aws.amazon.com/opensource/"
+  #
+  - name : "Silver Sponsors"
+    sponsor_item:
+      - name : "Framework"
+        logo : "images/sponsors/framework.svg"
+        link: "https://frame.work/"
+
+      - name: "AlmaLinux"
+        logo: "images/sponsors/almalinux.png"
+        link: "https://almalinux.org"
+
+  #
+  #    - name: "Meta"
+  #      logo: "images/sponsors/meta.png"
+  #      link: "https://about.meta.com"
+  #
+  #
+  #    - name: "Cosmonic"
+  #      logo: "images/sponsors/cosmonic.png"
+  #      link: "https://cosmonic.com/"
+  #
+  #- name : "Community Sponsors"
+  #  sponsor_item:
+  #  - name : "sponsor"
+  #    logo : "images/sponsors/com-spon-one.png"
+  #    link : "/sponsorship"
+
+  - name: "Track Sponsors"
+    sponsor_item:
+       - name: "Chainguard"
+         logo: "images/sponsors/chainguard.png"
+         link: "https://www.chainguard.dev"
+
+  - name: After Party Sponsors
+    link: party/
+    sponsor_item:
+      - name: Meta
+        logo: images/sponsors/meta.png
+        link: https://about.meta.com
+
+  - name: "Exhibitors"
+    sponsor_item:
+      - name: "Austin RISC-V"
+        logo: "images/sponsors/risc-v.webp"
+        link: "https://austinriscv.club/"
+
+      - name: Fedora
+        logo: images/sponsors/fedora.svg
+        link: https://fedoraproject.org
+
+      - name: CentOS
+        logo: images/sponsors/centos.svg
+        link: https://centos.org
+
+      - name: Free Software Foundation
+        logo: images/sponsors/fsf.png
+        link: https://fsf.org
+
+  #    - name: "PyTexas"
+  #      logo: "images/sponsors/pytexas.png"
+  #      link: "https://www.pytexas.org"
+  #
+  - name: "Media & Swag"
+    sponsor_item:
+      - name: Jupiter Broadcasting
+        logo: images/sponsors/jupiterbroadcasting.png
+        link: https://jupiterbroadcasting.com
+
+      - name: "Linux Magazine"
+        logo: "images/sponsors/linux-magazine.png"
+        link: "https://www.linux-magazine.com/"
+
+      - name: "Open Source Job Hub"
+        logo: "images/sponsors/open-source-job-hub.png"
+        link: "https://opensourcejobhub.com/"
+
+      - name: "Kube Events"
+        logo: "images/sponsors/kube-events.png"
+        link: "https://kube.events/"
+
+      - name: "Kube Careers"
+        logo: "images/sponsors/kube-careers.png"
+        link: "https://kube.careers/"
+
+############### FAQ ##################
+faq:
+  title: "Frequently Asked _Questions_"
+  questions:
+  - question : "Any refunds?"
+    ref : "any-refunds"
+    answer: "Reach out to info@texaslinuxfest.org if you would like a refund for a purchased ticket. Up to 60 days from the event, we are able to offer a full cash refund. From 59 days to 3 days out, we can transfer your ticket to another attendee. 72 hours or less from the event, no refunds or cancelations are possible."
+
+  - question : "Covid 2020 Cancellation Ticket Redemption"
+    ref : "covid-2020-cancellation-ticket-redemption"
+    answer : "If you purchased a ticket during our planned 2020 Texas Linux Festival that was cancelled due to COVID health concerns.  If you'd like to redeem this for the 2026 event, reach out to info@texaslinuxfest.org for registration if you did not receive a coupon code by email. Please provide your receipt.If you'd like a refund instead, reach out to info@texaslinuxfest.org and provide your receipt."
+
+############ Contact ####################
+contact:
+  title : "Get in _Touch_"
+  content : "Contact the organizers."
