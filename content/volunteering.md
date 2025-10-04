@@ -11,7 +11,7 @@ ignore_header: true
 
 ### Volunteering at _Texas Linux Festival_
 
-Texas Linux Fest 2024 was another huge success and it would not have been possible without our dedicated year-round staff and event-day volunteers. Their dedication to this event really and truly makes this event special to everyone that attends, sponsors and speaks.
+Texas Linux Fest 2026 was another huge success and it would not have been possible without our dedicated year-round staff and event-day volunteers. Their dedication to this event really and truly makes this event special to everyone that attends, sponsors and speaks.
 <br /><br />
 
 To help TXLF continue to grow, we simply need more help from you. We’re looking for people with a range of skill sets and there are many opportunities to help. If you’d like to help please drop us a line at info@texaslinuxfest.org and include the areas where you think you’ll be able to help! Again we are looking for year-round dedicated core staff, that will require varying amounts of time throughout the year depending on the job at hand.
