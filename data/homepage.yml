@@ -11,11 +11,11 @@ banner:
     day : 6
   button:
     enable : true
-    label : "get tickets now"
-    # link : "pricing/"
+    label : "Save The Date"
+    link : "pricing/"
     # @ilan - fix this link for a signup page for info
     # label: "sign up for updates!"
-    link: "https://register.linuxfests.org/reg6/"
+    # link: "https://register.linuxfests.org/reg6/"
   subscribe:
     enable : true
     label: "Subscribe to get updates!"
