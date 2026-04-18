@@ -43,26 +43,24 @@ about:
 
 ################# Speaker ###################
 speakers:
-  enable: false
-  cfp_open: false
-  cfp_link: https://www.papercall.io/txlf2026
+  enable: true
+  cfp_open: true
+  cfp_link: https://pretalx.com/txlf2026/cfp
   cfp_label: "Submit a talk to our _Call For Papers_"
   title : "Who is _Speaking?_"
   title_cfp: "Our _Call for Papers_ is Open!"
   content_cfp_topics:
-  - Linux kernel and system development
-  - Open-source software in enterprise environments
-  - DevOps and continuous integration/continuous deployment (CI/CD)
-  - Kubernetes, Docker, Cloud computing, virtualization, Containerization & Orchestration
-  - Internet of Things (IoT), Raspberry Pi’s, and embedded systems
-  - Host & Container Networking, eBPF
+  - Linux
+  - Distributions
+  - Cloud Native
+  - Artificial Intelligence
   - Observability
-  - Linux gaming and graphics
-  - Privacy, security, and encryption
-  - Artificial Intelligence (AI) and Machine Learning (ML) on Linux
-  - Linux distributions and desktop environments
-  - Linux in education and academia
-  - Introduction for new users to Linux, OSS Applications or Free Software
+  - Databases
+  - Security
+  - Automation
+  - Infrastructure
+  - Gaming
+  - Development
   content_cfp: "We invite you to be a part of this exceptional event by sharing your expertise and passion with the community. We are seeking engaging and insightful presentations that cover a broad range of topics related to Linux, open-source software, and the wider technology ecosystem. Whether you have hands-on experience, a new research breakthrough, or an inspiring vision for the future of Linux, we want to hear from you!"
   more_button_text: "Other speakers"
   more_button_link: "speakers/"
