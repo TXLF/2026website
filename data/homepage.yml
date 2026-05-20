@@ -851,7 +851,7 @@ sponsorship_pricing:
   - name: |
       Diamond
     button_text: "We still have an opening for our Diamond Sponsor!"
-    price : "8000"
+    price : "12000"
     price_per : "Sponsor"
     button_link : "contact/"
     description: "The Diamond Sponsorship package provides your organization with top level visibility at the Texas Linux Fest. This exclusive package will demonstrate your organization’s leadership role in the Linux and open-source community."
@@ -866,7 +866,7 @@ sponsorship_pricing:
     - "Helps make TXLF possible!"
 
   - name : "Platinum"
-    price : "6500"
+    price : "9000"
     price_per : "Sponsor"
     button_link : "contact/"
     description: "The Platinum Sponsorship package allows your organization to participate in high profile marketing opportunities at the Texas Linux Fest."
@@ -879,7 +879,7 @@ sponsorship_pricing:
     - "Helps make TXLF possible!"
 
   - name : "Gold"
-    price : "5000"
+    price : "6000"
     price_per : "Sponsor"
     button_link : "contact/"
     description: "The Gold Sponsorship package allows your organization to participate in high profile marketing opportunities at the Texas Linux Fest."
@@ -891,7 +891,7 @@ sponsorship_pricing:
     - "Helps make TXLF possible!"
 
   - name : "Silver"
-    price : "2500"
+    price : "3000"
     price_per : "Sponsor"
     button_link : "contact/"
     description: "The Silver Sponsorship package allows your organization to participate in high profile marketing opportunities at the Texas Linux Fest."
@@ -902,7 +902,7 @@ sponsorship_pricing:
 
   - name : "Community Exhibitor"
     button_text: "I'm interested in being a Community Exhibitor"
-    price : "0"
+    price : "Contact Us"
     price_per : "Sponsor"
     button_link : "contact/"
     description: "This package is only for non-profits and approved community organizations wishing to support Texas Linux Festival. It is expected that all people running the booth would be volunteers. Any fiscal contributions are accepted!"
