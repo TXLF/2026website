@@ -818,7 +818,7 @@ registration:
 
 ############ Pricing ####################
 pricing:
-  enable : false
+  enable : true
   title : "Get _Tickets_"
   content : "Event Pricing for Texas Linux Festival 2026."
   pricing_table:
@@ -826,13 +826,13 @@ pricing:
     price : "100.00"
     price_per : "Person"
     button_link : "https://register.linuxfests.org/reg6/"
-    sold_out : true
+    sold_out : false
     features:
     - "Full access to the event"
     - "Helps make TXLF possible!"
     - "TXLF swag pack"
 
-  - name : "Enthusiast"
+  - name : "Discount"
     price : "75.00"
     price_per : "Person"
     button_link : "https://register.linuxfests.org/reg6/"
