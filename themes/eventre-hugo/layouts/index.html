@@ -197,7 +197,6 @@
         </div>
       </div>
     </div>
-    {{ if ( not site.Data.homepage.speakers.cfp_open ) }}
     <div class="row">
       <div class="col-12">
         <div class="schedule-tab">
@@ -237,13 +236,13 @@
                     {{ if .speaker_link }}
                     <a href="{{ .speaker_link | absURL }}">
                       <div class="speaker">
-                        <img src="{{ .speaker_image | absURL }}" alt="{{.speaker}}">
+                        <img src="{{ .speaker_image | absURL }}" alt="{{.speaker}}" height="65" width="65">
                         <span class="name">{{.speaker}}</span>
                       </div>
                     </a>
                     {{ else }}
                     <div class="speaker">
-                      <img src="{{ .speaker_image | absURL }}" alt="{{.speaker}}">
+                      <img src="{{ .speaker_image | absURL }}" alt="{{.speaker}}" height="65" width="65">
                       <span class="name">{{.speaker}}</span>
                     </div>
                     {{ end }}
@@ -267,7 +266,6 @@
         </div>
       </div>
     </div>
-    {{ end }}
   </div>
 </section>
 {{ end }}
