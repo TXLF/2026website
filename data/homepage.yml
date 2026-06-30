@@ -69,719 +69,90 @@ speakers:
 
 ###################### Tab ####################
 tab:
-  enable : false
+  enable : true
   title : "Event _Schedule_"
   content : "The schedule of events is subject to change without prior notifications."
   tablist:
   # tab item
   - name : "Day 1"
-    date : "October 3"
+    date : "November 6"
     tablist_items:
 
-    ## 9:00 AM
-
-    - speaker: Matthew Boehm
-      speaker_image: images/speakers/matthew-boehm-thumb.jpg
-      speaker_link: speakers/matthew-boehm/
-      talk_link: talks/valkey-101-keep-calm-and-fork-on/
-      subject: "Valkey 101: Keep Calm, and Fork On (Sponsor: Percona)"
-      venue: Lil Tex
-      time: "9:00 AM - 10:30 AM"
-      column: 4
-      start_hour: 9
-      start_minute: 0
-      end_hour: 10
-      end_minute: 30
-
-    - speaker: Aleksey Tsalolikhin
-      speaker_image: images/speakers/aleksey-tsalolikhin-thumb.jpg
-      speaker_link: speakers/aleksey-tsalolikhin/
-      talk_link: talks/power-editing-with-vi-basics/
-      subject: "Power Editing with Vi: Basics"
-      venue: Balcones
-      time: "9:00 AM - 12:00 PM"
-      column: 5
-      start_hour: 9
-      start_minute: 0
-      end_hour: 12
-      end_minute: 0
-
-    - speaker: Jon Roberts
-      speaker_image: images/speakers/jon-roberts-thumb.jpg
-      speaker_link: speakers/jon-roberts/
-      talk_link: talks/wsl-meet-the-bastard-i-adopted-and-learn-to-play-with-them/
-      subject: "WSL: Meet the bastard I adopted and learn to play with them."
-      venue: Stadium
-      time: "9:00 AM - 12:00 PM"
-      column: 6
-      start_hour: 9
-      start_minute: 0
-      end_hour: 12
-      end_minute: 0
-
-    - speaker: Caleb Schoepp
-      speaker_image: images/speakers/caleb-schoepp-thumb.jpg
-      speaker_link: speakers/caleb-schoepp/
-      talk_link: talks/truly-portable-code-serverless-webassembly-in-a-distributed-world/
-      subject: "Truly Portable Code: Serverless WebAssembly in a Distributed World"
-      venue: Bevo
-      time: "9:00 AM - 10:30 AM"
-      column: 7
-      start_hour: 9
-      start_minute: 0
-      end_hour: 10
-      end_minute: 30
-
-    - speaker: Ken Crandall
-      speaker_image: images/speakers/ken-crandall-thumb.jpg
-      speaker_link: speakers/ken-crandall/
-      talk_link: talks/build-your-own-cloud-batteries-included/
-      subject: "Build Your Own Cloud: Batteries Included! (Sponsor: Rackspace)"
-      venue: Big Tex
-      time: "9:15 AM - 11:15 AM"
-      column: 3
-      start_hour: 9
-      start_minute: 15
-      end_hour: 11
-      end_minute: 15
-
-    - subject: TXLF Expo Booths
-      venue: Atrium
-      column: 2
-      time: "10:00 AM - 5:00 PM"
-      start_hour: 10
-      start_minute: 0
-      end_hour: 17
-      end_minute: 0
-
-    - speaker: Matthew Boehm
-      speaker_image: images/speakers/matthew-boehm-thumb.jpg
-      speaker_link: speakers/matthew-boehm/
-      talk_link: talks/false-positives-real-gains-valkeys-probabilistic-filters/
-      subject: "False Positives, Real Gains: Valkey's Probabilistic Filters (Sponsor: Percona)"
-      venue: Lil Tex
-      time: "10:30 AM - 12:00 PM"
-      column: 4
-      start_hour: 10
-      start_minute: 30
-      end_hour: 12
-      end_minute: 0
-
-    - speaker: Sean Thrailkill
-      speaker_image: images/speakers/sean-thrailkill-thumb.jpg
-      speaker_link: speakers/sean-thrailkill/
-      talk_link: talks/create-your-own-bootable-container/
-      subject: Create Your Own Bootable Container!
-      venue: Bevo
-      time: "10:30 AM - 12:00 PM"
-      column: 7
-      start_hour: 10
-      start_minute: 30
-      end_hour: 12
-      end_minute: 0
-
-    - speaker: Josh Villarreal
-      speaker_image: images/speakers/josh-villarreal-thumb.jpg
-      speaker_link: speakers/josh-villarreal/
-      talk_link: talks/from-open-source-to-open-talk-meet-the-experts/
-      subject: "From Open Source to Open Talk: Meet the Experts (Sponsor: Rackspace)"
-      venue: Big Tex
-      time: "11:15 AM - 12:00 PM"
-      column: 3
-      start_hour: 11
-      start_minute: 15
-      end_hour: 12
-      end_minute: 0
-
-    ## 12:00 PM
-
-    - subject: Lunch
-      time: "12:00 PM - 1:30 PM"
-      start_hour: 12
-      start_minute: 0
-      end_hour: 13
-      end_minute: 30
-      column: 8
-
-    ## 1:30 PM
-
-    - speaker: David Duncan
-      speaker_image: images/speakers/david-duncan-thumb.jpg
-      speaker_link: speakers/david-duncan/
-      talk_link: talks/the-great-texas-agent-off-ramalama-podman-and-diy-ai-bots/
-      subject: "The Great Texas Agent-Off: RamaLama, Podman, and DIY AI Bots!"
-      venue: Balcones
-      time: "1:30 PM - 4:30 PM"
-      column: 5
-      start_hour: 13
-      start_minute: 30
-      end_hour: 16
-      end_minute: 30
+    - speaker: Dave Stokes
+      speaker_image: https://pretalx.com/media/avatars/DTASJP_WZqfA5E_thumbnail_default.webp
+      talk_link: https://pretalx.com/txlf2026/talk/review/TWFVVTZRFKRXD9AZZCHTWLPAWGSTRZCC
+      subject: Structured Query Language 101
+      venue: TBD
+      time: TBD
 
     - speaker: Alex Juarez
-      speaker_image: images/speakers/alex-juarez-thumb.jpg
-      speaker_link: speakers/alex-juarez/
-      talk_link: talks/keep-it-local-intro-to-learning-kubernetes-using-minikube/
-      subject: "Keep it Local: Intro to learning Kubernetes using minikube"
-      venue: Stadium
-      time: "1:30 PM - 4:30 PM"
-      column: 6
-      start_hour: 13
-      start_minute: 30
-      end_hour: 16
-      end_minute: 30
-
-    - speaker: Ryan Edge
-      speaker_image: images/speakers/ryan-edge-thumb.jpg
-      speaker_link: speakers/ryan-edge/
-      talk_link: talks/accelerating-linux-application-development-with-flutter-a-hands-on-workshop/
-      subject: "Accelerating Linux Application Development with Flutter: A Hands-on Workshop"
-      venue: Bevo
-      time: "1:30 PM - 3:00 PM"
-      column: 7
-      start_hour: 13
-      start_minute: 30
-      end_hour: 15
-      end_minute: 0
-
-    - speaker: Ken Crandall
-      speaker_image: images/speakers/ken-crandall-thumb.jpg
-      speaker_link: speakers/ken-crandall/
-      talk_link: talks/build-your-own-cloud-batteries-included/
-      subject: "Build Your Own Cloud: Batteries Included! (Sponsor: Rackspace)"
-      venue: Big Tex
-      time: "1:45 PM - 3:45 PM"
-      column: 3
-      start_hour: 13
-      start_minute: 45
-      end_hour: 15
-      end_minute: 45
-
-    ## 2:00 PM
-
-    - speaker: Raul Leite
-      speaker_image: images/speakers/raul-leite-thumb.jpg
-      speaker_link: speakers/raul-leite/
-      talk_link: talks/building-ai-workloads-locally-with-podman/
-      subject: "Building AI Workloads locally with Podman (Sponsor: Red Hat)"
-      venue: Lil Tex
-      time: "2:00 PM - 3:00 PM"
-      column: 4
-      start_hour: 14
-      start_minute: 0
-      end_hour: 15
-      end_minute: 0
-
-    ## 3:00 PM
-
-    - speaker: Cody Lee Cochran
-      speaker_image: images/speakers/cody-lee-cochran-thumb.jpg
-      speaker_link: speakers/cody-lee-cochran/
-      talk_link: talks/pipelines-as-a-service-codifying-workflows-other-tribal-knowledge/
-      subject: "Pipelines as a Service: Codifying Workflows & Other Tribal Knowledge"
-      venue: Bevo
-      time: "3:00 PM - 4:30 PM"
-      column: 7
-      start_hour: 15
-      start_minute: 0
-      end_hour: 16
-      end_minute: 30
-
-    - speaker: Faizal Khader
-      speaker_image: images/speakers/faizal-khader-thumb.jpg
-      speaker_link: speakers/faizal-khader/
-      talk_link: talks/explore-deploying-and-managing-large-language-models-with-red-hat-enterprise-linux-10-and-red-hat-ai-serving/
-      subject: "Explore Deploying and Managing Large Language Models with Red Hat Enterprise Linux 10 and Red Hat AI Serving (Sponsor: Red Hat)"
-      venue: Lil Tex
-      time: "3:30 PM - 4:30 PM"
-      column: 4
-      start_hour: 15
-      start_minute: 30
-      end_hour: 16
-      end_minute: 30
-
-    - speaker: Josh Villarreal
-      speaker_image: images/speakers/josh-villarreal-thumb.jpg
-      speaker_link: speakers/josh-villarreal/
-      talk_link: talks/from-open-source-to-open-talk-meet-the-experts/
-      subject: "From Open Source to Open Talk: Meet the Experts (Sponsor: Rackspace)"
-      venue: Big Tex
-      time: "3:45 AM - 4:30 PM"
-      column: 3
-      start_hour: 15
-      start_minute: 45
-      end_hour: 16
-      end_minute: 30
-
-    - subject: Lightning talks
-      venue: Big Tex
-      time: "4:45 PM - 5:15 PM"
-      column: 3
-      start_hour: 16
-      start_minute: 45
-      end_hour: 17
-      end_minute: 15
+      speaker_image: https://pretalx.com/media/avatars/SPNSYW_CetaB0m_thumbnail_default.webp
+      talk_link: https://pretalx.com/txlf2026/talk/review/AHHSYUPANDMS3APWB9JUXXY9GWCET9WA
+      subject: Build a Local RAG Lab with Lima and Ollama
+      venue: TBD
+      time: TBD
 
   # tab item
   - name : "Day 2"
-    date : "October 4"
+    date : "November 7"
     tablist_items:
 
-    ## 9:00 AM
+    - speaker: Eric Hendricks
+      speaker_image: https://pretalx.com/media/avatars/LXEXJE_G2ALXhv_thumbnail_default.webp
+      talk_link: https://pretalx.com/txlf2026/talk/review/7XXTHTZGQKYV9EYMLYX8D8RND3SLJHM3
+      subject: "From Bash to Burnout: Staying Sane in a 24/7 Tech World"
+      venue: TBD
+      time: TBD
 
-    - speaker: Dustin Kirkland
-      speaker_image: images/speakers/dustin-kirkland-thumb.jpg
-      speaker_link: speakers/dustin-kirkland/
-      subject: TXLF Keynote
-      venue: Big Tex
-      time: "9:00 AM - 9:45 AM"
-      column: 3
-      start_hour: 9
-      start_minute: 0
-      end_hour: 9
-      end_minute: 45
-
-    ## 10:00 AM
-
-    - subject: TXLF Expo Booths
-      venue: Atrium
-      column: 2
-      time: "10:00 AM - 5:00 PM"
-      start_hour: 10
-      start_minute: 0
-      end_hour: 17
-      end_minute: 0
-
-    - speaker: Ignat Korchagin
-      speaker_image: images/speakers/ignat-korchagin-thumb.jpg
-      speaker_link: speakers/ignat-korchagin/
-      talk_link: talks/an-engineers-guide-to-linux-kernel-upgrades/
-      subject: An engineer's guide to Linux Kernel upgrades
-      venue: Big Tex
-      time: "10:00 AM - 10:45 AM"
-      column: 3
-      start_hour: 10
-      start_minute: 0
-      end_hour: 10
-      end_minute: 45
-
-    - speaker: "Swetha Garaga"
-      speaker_image: images/speakers/swetha-garaga-thumb.jpg
-      speaker_link: speakers/swetha-garaga/
-      talk_link: talks/human-centered-automation-equity-and-efficiency-in-modern-warehousing/
-      subject: "Human‑Centered Automation: Equity and Efficiency in Modern Warehousing"
-      venue: Lil Tex
-      time: "10:00 AM - 10:45 AM"
-      column: 4
-      start_hour: 10
-      start_minute: 0
-      end_hour: 10
-      end_minute: 45
-
-    - speaker: "Bramhanand Lingala"
-      speaker_image: images/speakers/bramhanand-lingala-thumb.jpg
-      speaker_link: speakers/bramhanand-lingala/
-      talk_link: talks/adopting-nosql-at-scale-strategic-models-performance-trade-offs-and-integration-pitfalls/
-      subject: "Adopting NoSQL at Scale: Strategic Models, Performance Trade-Offs, and Integration Pitfalls"
-      venue: Balcones
-      time: "10:00 AM - 10:45 AM"
-      column: 5
-      start_hour: 10
-      start_minute: 0
-      end_hour: 10
-      end_minute: 45
-
-    - speaker: Fred Lawler
-      speaker_image: images/speakers/fred-lawler-thumb.jpg
-      speaker_link: speakers/fred-lawler/
-      talk_link: talks/containers-without-docker/
-      subject: Containers without Docker
-      venue: Stadium
-      time: "10:00 AM - 10:45 AM"
-      column: 6
-      start_hour: 10
-      start_minute: 0
-      end_hour: 10
-      end_minute: 45
-
-    - speaker: Sai Durga Rithvik Oruganti
-      speaker_image: images/speakers/sai-durga-rithvik-oruganti-thumb.jpg
-      speaker_link: speakers/sai-durga-rithvik-oruganti/
-      talk_link: talks/lessons-they-dont-teach-you-in-school-a-year-in-high-performance-computing/
-      subject: "Lessons They Don't Teach You in School: A Year in High-Performance Computing"
-      venue: Bevo
-      time: "10:00 AM - 10:45 AM"
-      column: 7
-      start_hour: 10
-      start_minute: 0
-      end_hour: 10
-      end_minute: 45
-
-    ## 11:00 AM
-
-    - speaker: Kory Heard
-      speaker_image: images/speakers/kory-heard-thumb.jpg
-      speaker_link: speakers/kory-heard/
-      talk_link: talks/the-design-and-implementation-of-the-darwin-operating-system/
-      subject: "The Design & Implementation of the Darwin Operating System"
-      venue: Big Tex
-      time: "11:00 AM - 11:45 AM"
-      column: 3
-      start_hour: 11
-      start_minute: 0
-      end_hour: 11
-      end_minute: 45
-
-    - speaker: Thomas Cameron
-      speaker_image: images/speakers/thomas-cameron-thumb.jpg
-      speaker_link: speakers/thomas-cameron/
-      talk_link: talks/getting-started-with-ansible-on-linux/
-      subject: Getting Started with Ansible on Linux
-      venue: Lil Tex
-      time: "11:00 AM - 11:45 AM"
-      column: 4
-      start_hour: 11
-      start_minute: 0
-      end_hour: 11
-      end_minute: 45
-
-    - speaker: Matthew Penaroza
-      speaker_image: images/speakers/matthew-penaroza-thumb.jpg
-      speaker_link: speakers/matthew-penaroza/
-      talk_link: talks/mastering-database-selection-for-system-design/
-      subject: Mastering Database Selection for System Design
-      venue: Balcones
-      time: "11:00 AM - 11:45 AM"
-      column: 5
-      start_hour: 11
-      start_minute: 0
-      end_hour: 11
-      end_minute: 45
-
-    - speaker: Mike Schwartz
-      speaker_image: images/speakers/mike-schwartz-thumb.jpg
-      speaker_link: speakers/mike-schwartz/
-      talk_link: talks/security-that-scales-how-cedar-is-rewriting-the-rules-of-access/
-      subject: "Security That Scales: How Cedar is Rewriting the Rules of Access"
-      venue: Stadum
-      time: "11:00 AM - 11:45 AM"
-      column: 6
-      start_hour: 11
-      start_minute: 0
-      end_hour: 11
-      end_minute: 45
-
-    - speaker: Eduardo Robles
-      speaker_image: images/speakers/eduardo-robles-thumb.jpg
-      speaker_link: speakers/eduardo-robles/
-      talk_link: talks/i-got-malware-btw/
-      subject: "I got Malware, BTW. A quick look at the rising trend of Linux Malware."
-      venue: Bevo
-      time: "11:00 AM - 11:45 AM"
-      column: 7
-      start_hour: 11
-      start_minute: 0
-      end_hour: 11
-      end_minute: 45
-
-    ## 12:00 PM
-
-    - subject: Lunch
-      time: "12:00 PM - 2:00 PM"
-      start_hour: 12
-      start_minute: 0
-      end_hour: 14
-      end_minute: 0
-      column: 8
-
-    ## 2:00 PM
-
-    - speaker: Chris Arges
-      speaker_image: images/speakers/chris-arges-thumb.jpg
-      speaker_link: speakers/chris-arges/
-      talk_link: talks/verified-debian-packaging-at-scale/
-      subject: Verified Debian Packaging at Scale
-      venue: Big Tex
-      time: "2:00 PM - 2:45 PM"
-      column: 3
-      start_hour: 14
-      start_minute: 0
-      end_hour: 14
-      end_minute: 45
-
-    - speaker: Major Hayden
-      speaker_image: images/speakers/major-hayden-thumb.png
-      speaker_link: speakers/major-hayden/
-      talk_link: talks/dont-tell-me-rag-is-easy/
-      subject: Don't tell me RAG is easy
-      venue: Lil Tex
-      time: "2:00 PM - 2:45 PM"
-      column: 4
-      start_hour: 14
-      start_minute: 0
-      end_hour: 14
-      end_minute: 45
-
-    - speaker: Mario Limonciello
-      speaker_image: images/speakers/mario-limonciello-thumb.jpg
-      speaker_link: speakers/mario-limonciello/
-      talk_link: talks/steamos-on-the-lenovo-go-s/
-      subject: SteamOS™ on the Lenovo™ Go S
-      venue: Balcones
-      time: 2:00 PM - 2:45 PM
-      column: 5
-      start_hour: 14
-      start_minute: 0
-      end_hour: 14
-      end_minute: 45
-
-    - speaker: Anupama Pathirage
-      speaker_image: images/speakers/anupama-pathirage-thumb.jpg
-      speaker_link: speakers/anupama-pathirage/
-      talk_link: talks/effortless-cloud-integrations-ballerina-for-kubernetes-and-beyond/
-      subject: "Effortless Cloud Integrations: Ballerina for Kubernetes and Beyond"
-      venue: Stadium
-      time: "2:00 PM - 2:45 PM"
-      column: 6
-      start_hour: 14
-      start_minute: 0
-      end_hour: 14
-      end_minute: 45
-
-    - speaker: Michael Troutman
-      speaker_image: images/speakers/michael-troutman-thumb.jpg
-      speaker_link: speakers/michael-troutman/
-      talk_link: talks/lifting-the-documentation-burden-with-open-source-tools-and-resources/
-      subject: Lifting the Documentation Burden with Open Source Tools and Resources
-      venue: Bevo
-      time: "2:00 PM - 2:45 PM"
-      column: 7
-      start_hour: 14
-      start_minute: 0
-      end_hour: 14
-      end_minute: 45
-
-    ## 3:00 PM
-
-    - speaker: Robert Callicotte
-      speaker_image: images/speakers/robert-callicotte-thumb.jpg
-      speaker_link: speakers/robert-callicotte/
-      talk_link: talks/running-centos-stream-in-production/
-      subject: Running CentOS Stream in Production
-      venue: Big Tex
-      time: "3:00 PM - 3:45 PM"
-      column: 3
-      start_hour: 15
-      start_minute: 0
-      end_hour: 15
-      end_minute: 45
-
-    - speaker: Sophia Solomon
-      speaker_image: images/speakers/sophia-solomon-thumb.jpg
-      speaker_link: speakers/sophia-solomon/
-      talk_link: talks/grep-cant-help-you-now-observability-for-llms/
-      subject: "Grep Can't Help You Now: Observability for LLMs"
-      venue: Lil Tex
-      time: "3:00 PM - 3:45 PM"
-      column: 4
-      start_hour: 15
-      start_minute: 0
-      end_hour: 15
-      end_minute: 45
-
-    - speaker: Carl Perry
-      speaker_image: images/speakers/carl-perry-thumb.jpg
-      speaker_link: speakers/carl-perry/
-      talk_link: talks/linux-on-risc-v-where-we-are-where-were-going-and-how-you-can-jump-in/
-      subject: "Linux on RISC-V: Where we are, where we're going, and how you can jump in"
-      venue: Balcones
-      time: "3:00 PM - 3:45 PM"
-      column: 5
-      start_hour: 15
-      start_minute: 0
-      end_hour: 15
-      end_minute: 45
-
-    - speaker: Mayur Bhandari
-      speaker_image: images/speakers/mayur-bhandari-thumb.jpg
-      speaker_link: speakers/mayur-bhandari/
-      talk_link: talks/building-smart-cities-with-open-source/
-      subject: "Building Smart Cities with Open Source: How Linux-Based Distributed Systems Are Transforming Urban Infrastructure"
-      venue: Stadium
-      time: "3:00 PM - 3:45 PM"
-      column: 6
-      start_hour: 15
-      start_minute: 0
-      end_hour: 15
-      end_minute: 45
-
-    - speaker: Matt Moen
-      speaker_image: images/speakers/matt-moen-thumb.jpg
-      speaker_link: speakers/matt-moen/
-      talk_link: talks/encrypting-your-infrastructure-without-getting-fired/
-      subject: Encrypting Your Infrastructure Without Getting Fired
-      venue: Bevo
-      time: "3:00 PM - 3:45 PM"
-      column: 7
-      start_hour: 15
-      start_minute: 0
-      end_hour: 15
-      end_minute: 45
-
-    ## 4:00 PM
+    - speaker: KL Grady
+      speaker_image: https://www.socallinuxexpo.org/sites/default/files/styles/avatar_256x256_webp/public/2023-11/color%2520headshot.jpg.webp
+      talk_link: https://pretalx.com/txlf2026/talk/review/YLDCCBNF7S3EAW8WFW9T8PQNUTWA3XAA
+      subject: "Cauldron Ops: How a Bored Navy Wife Out-Shipped Enterprise Software"
+      venue: TBD
+      time: TBD
 
     - speaker: Carl Thompson
-      speaker_image: images/speakers/carl-thompson-thumb.jpg
-      speaker_link: speakers/carl-thompson/
-      talk_link: talks/demystifying-selinux/
-      subject: Demystifying SELinux
-      venue: Big Tex
-      time: "4:00 PM - 4:45 PM"
-      column: 3
-      start_hour: 16
-      start_minute: 0
-      end_hour: 16
-      end_minute: 45
+      speaker_image: https://pretalx.com/media/avatars/BQLN3R_Zq8Y196_thumbnail_default.webp
+      talk_link: https://pretalx.com/txlf2026/talk/review/DTK3JNMCJJFQVWYZNQGUKKLAQQDKGFGD
+      subject: Effective HA (High Availability) Architecting
+      venue: TBD
+      time: TBD
 
-    - speaker: JJ Asghar
-      speaker_image: images/speakers/jj-asghar-thumb.jpg
-      speaker_link: speakers/jj-asghar/
-      talk_link: talks/using-open-source-ai-and-linux-to-help-medical-school-students/
-      subject: Using Open Source AI and Linux to help Medical School Students
-      venue: Lil Tex
-      time: "4:00 PM - 4:45 PM"
-      column: 4
-      start_hour: 16
-      start_minute: 0
-      end_hour: 16
-      end_minute: 45
+    - speaker: Steve Oualline
+      speaker_image: https://pretalx.com/txlf2026/speaker/avatar.svg
+      talk_link: https://pretalx.com/txlf2026/talk/review/LUMYSMFWVK9DKEKE8SPNEZRH8ZTLJFEB
+      subject: Experience using Linux to control the Southern California Railroad Museum's signal garden
+      venue: TBD
+      time: TBD
 
-    - speaker: Joshua Lee
-      speaker_image: images/speakers/joshua-lee-thumb.jpg
-      speaker_link: speakers/joshua-lee/
-      talk_link: talks/magical-mystery-tour-a-roundup-of-observability-datastores/
-      subject: "Magical Mystery Tour: A Roundup of Observability Datastores"
-      venue: Balcones
-      time: "4:00 PM - 4:45 PM"
-      column: 5
-      start_hour: 16
-      start_minute: 0
-      end_hour: 16
-      end_minute: 45
+    - speaker: Eduardo Robles
+      speaker_image: https://pretalx.com/media/avatars/KKKXGK_OZUfcs1_thumbnail_default.webp
+      talk_link: https://pretalx.com/txlf2026/talk/review/YZKBHLGFFMP98PK3USFVJXYGW9PJJLBD
+      subject: Attack of the AI Bots!!
+      venue: TBD
+      time: TBD
 
-    - speaker: Hoang Dinh Nguyen
-      speaker_image: images/speakers/hoang-dinh-nguyen-thumb.jpg
-      speaker_link: speakers/hoang-dinh-nguyen/
-      talk_link: talks/kusion-and-internal-developer-platform-optimize-the-software-develement-process/
-      subject: "Kusion and Internal Developer Platform: Optimize the Software Development Process"
-      venue: Stadium
-      time: "4:00 PM - 4:45 PM"
-      column: 6
-      start_hour: 16
-      start_minute: 0
-      end_hour: 16
-      end_minute: 45
+    - speaker: Carl Perry
+      speaker_image: https://pretalx.com/media/avatars/AVSAQ9_APXZW3I_thumbnail_default.webp
+      talk_link: https://pretalx.com/txlf2026/talk/review/KFM3HGMR777P7CUCP9ABEFBMNANEMGUV
+      subject: "Linux and RISC-V: 2026 Edition"
+      venue: TBD
+      time: TBD
 
-    - speaker: Brett Estrade
-      speaker_image: images/speakers/brett-estrade-thumb.jpg
-      speaker_link: speakers/brett-estrade/
-      talk_link: talks/real-time-hurricane-storm-surge-prediction-using-open-source/
-      subject: Real-Time Hurricane Storm Surge Prediction using Open Source
-      venue: Bevo
-      time: "4:00 PM - 4:45 PM"
-      column: 7
-      start_hour: 16
-      start_minute: 0
-      end_hour: 16
-      end_minute: 45
+    - speaker: Neal Gompa & Shawn Dunn
+      speaker_image: https://pretalx.com/media/avatars/GSJ7WA_vwcvc5B_thumbnail_default.webp
+      talk_link: https://pretalx.com/txlf2026/talk/review/UHV778QDDSNPSCD3V8R7BZSJJSRH7TC9
+      subject: Transactional Systems in the Fedora Ecosystem
+      venue: TBD
+      time: TBD
 
-    ## 5:00 PM
+    - speaker: Elizabeth K. Joseph
+      speaker_image: https://pretalx.com/media/avatars/KB7PDK_t9Mx1nY_thumbnail_default.webp
+      talk_link: https://pretalx.com/txlf2026/talk/review/DJYGNE7J3HE7ENW837ELPKEZ3ZY7VPCK
+      subject: Growing Open Source in Closed Ecosystems
+      venue: TBD
+      time: TBD
 
-    - speaker: Wes Payne
-      speaker_image: images/speakers/wes-payne-thumb.jpg
-      speaker_link: speakers/wes-payne/
-      talk_link: talks/mesh-network-sidecars-for-nixos-services/
-      subject: Mesh Network Sidecars for NixOS Services
-      venue: Big Tex
-      time: "5:00 PM - 5:45 PM"
-      column: 3
-      start_hour: 17
-      start_minute: 0
-      end_hour: 17
-      end_minute: 45
-
-    - speaker: Sudheer Obbu
-      speaker_image: images/speakers/sudheer-obbu-thumb.jpg
-      speaker_link: speakers/sudheer-obbu/
-      talk_link: talks/securing-ai-workloads-with-zero-trust-building-resilient-cloud-native-systems-on-linux/
-      subject: "Securing AI Workloads with Zero Trust: Building Resilient Cloud-Native Systems on Linux"
-      venue: Lil Tex
-      time: "5:00 PM - 5:45 PM"
-      column: 4
-      start_hour: 17
-      start_minute: 0
-      end_hour: 17
-      end_minute: 45
-
-    - speaker: Steve Anness
-      speaker_image: images/speakers/steve-anness-thumb.png
-      speaker_link: speakers/steve-anness/
-      talk_link: talks/auto-instrument-all-the-things-with-beyla/
-      subject: Auto-instrument all the things with Beyla
-      venue: Balcones
-      time: "5:00 PM - 5:45 PM"
-      column: 5
-      start_hour: 17
-      start_minute: 0
-      end_hour: 17
-      end_minute: 45
-
-    - speaker: Dave McAllister
-      speaker_image: images/speakers/dave-mcallister-thumb.jpg
-      speaker_link: speakers/dave-mcallister/
-      talk_link: talks/exploring-kubernetes-gateway-api-and-nginx-gateway-fabric/
-      subject: Exploring Kubernetes Gateway API and NGINX Gateway Fabric
-      venue: Stadium
-      time: "5:00 PM - 5:45 PM"
-      column: 6
-      start_hour: 17
-      start_minute: 0
-      end_hour: 17
-      end_minute: 45
-
-    - speaker: Willard Nilges
-      speaker_image: images/speakers/willard-nilges-thumb.jpg
-      speaker_link: speakers/willard-nilges/
-      talk_link: talks/lessons-learned-building-observability-for-a-non-profit/
-      subject: Lessons Learned Building Observability for a Non-Profit
-      venue: Bevo
-      time: "5:00 PM - 5:45 PM"
-      column: 7
-      start_hour: 17
-      start_minute: 0
-      end_hour: 17
-      end_minute: 45
-
-    ## 6:00 PM
-
-    - subject: Closing remarks
-      venue: Big Tex
-      time: "6:00 PM - 6:15 PM"
-      column: 3
-      start_hour: 18
-      start_minute: 0
-      end_hour: 18
-      end_minute: 15
-
-    - subject: "TXLF After Party"
-      talk_link: "party/"
-      venue: Lavaca Street Bar
-      time: "7:30 PM - 10:00 PM"
-      column: 8
-      start_hour: 19
-      start_minute: 30
-      end_hour: 22
-      end_minute: 0
 
 ############ Interviews ######################
 interviews:
