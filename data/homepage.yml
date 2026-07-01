@@ -11,7 +11,7 @@ banner:
     day : 6
   button:
     enable : true
-    label : "Save The Date"
+    label : "Get tickets now"
     link : "pricing/"
     # @ilan - fix this link for a signup page for info
     # label: "sign up for updates!"
@@ -32,8 +32,8 @@ about:
     <br><br>
     Texas Linux Festival is a non-profit (501c) community based organization that is run by volunteers to organize and provide the TXLF conferences. The first official TXLF conference was held in 2010 in Austin, TX.
   button_solid:
-    enable : false
-    label : "Save the Date!"
+    enable : true
+    label : "Buy tickets"
     link : "pricing/"
   button_outline:
     enable : true
@@ -163,7 +163,7 @@ interviews:
 
 ############ Registration ####################
 registration:
-  enable : false
+  enable : true
   title : "Register to _Texas Linux Festival 2026_"
   content : "**Registration for Texas Linux Festival 2026 is now open!**"
   form_action : "#" # works with formspree.io
@@ -305,13 +305,13 @@ sponsorship_pricing:
 
 ############### Call to action ############
 call_to_action:
-  enable : false
-  title : "Save the Date _Now!_"
+  enable : true
+  title : "Get Tickets _Now!_"
   image : "images/speakers/speaker-ticket.png"
-  content : "Save the date for TXLF2026 today!"
+  content : "Register for TXLF2026 today!"
   button:
     enable : true
-    label : "Save the Date"
+    label : "Buy tickets"
     link : "pricing/"
 
 ############### Sponsors ##################
