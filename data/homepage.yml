@@ -92,6 +92,20 @@ tab:
       venue: TBD
       time: TBD
 
+    - speaker: Sean Thrailkill
+      speaker_image: https://pretalx.com/media/avatars/CYW7SD_KkD2Ypv_thumbnail_default.webp
+      talk_link: https://pretalx.com/txlf2026/talk/review/UY9NMQHQ8RK3YNMYJQFHMQ9GV9LRN9HE
+      subject: "Confidential Computing: Verifiable and Sealed OS Images"
+      venue: TBD
+      time: TBD
+
+    - speaker: David Duncan
+      speaker_image: https://pretalx.com/media/avatars/XHYHRX_Eb2EJor_thumbnail_default.webp
+      talk_link: https://pretalx.com/txlf2026/talk/review/D7MBS9TSK7Q7YKBFPHBFMGWYXHHJWZ88
+      subject: RamaLama + Podman Quadlets — Build Task-Specific AI Services with systemd
+      venue: TBD
+      time: TBD
+
   # tab item
   - name : "Day 2"
     date : "November 7"
@@ -150,6 +164,62 @@ tab:
       speaker_image: https://pretalx.com/media/avatars/KB7PDK_t9Mx1nY_thumbnail_default.webp
       talk_link: https://pretalx.com/txlf2026/talk/review/DJYGNE7J3HE7ENW837ELPKEZ3ZY7VPCK
       subject: Growing Open Source in Closed Ecosystems
+      venue: TBD
+      time: TBD
+
+    - speaker: Alexander Shut
+      speaker_image: https://pretalx.com/media/avatars/KDTQRX_UVah4W5_thumbnail_default.webp
+      talk_link: https://pretalx.com/txlf2026/talk/review/PNUULA99UEWP9DHXPSVGQ8LXCGADSVVU
+      subject: "Stop Suffering: How I Built ProxUI to Fix My Homelab"
+      venue: TBD
+      time: TBD
+
+    - speaker: Michael Yuan
+      speaker_image: https://pretalx.com/media/avatars/GDBVGD_yQdSXXS_thumbnail_default.webp
+      talk_link: https://pretalx.com/txlf2026/talk/review/TELBEFPDBWSPFWDU7L7GP7DTVYEEFLY7
+      subject: "Don’t Give Your AI Agent the House Keys: Running Sandboxed Agents on Your Own Linux Box"
+      venue: TBD
+      time: TBD
+
+    - speaker: Thomas Cameron
+      speaker_image: https://pretalx.com/media/avatars/BDYMQL_qLQBcrP_thumbnail_default.webp
+      talk_link: https://pretalx.com/txlf2026/talk/review/9XNSSLDCZGBCSTFJL8SNEJFTT998NDZQ
+      subject: "Enterprise Kubernetes at Home: A Homelabber's Guide to OKD"
+      venue: TBD
+      time: TBD
+
+    - speaker: Sophia Solomon
+      speaker_image: images/speakers/sophia-solomon-thumb.jpg
+      talk_link: https://pretalx.com/txlf2026/talk/review/SZ7UZXPHSUXQUQJ8JL8DQQLN73VNXZL9
+      subject: How to Upgrade Your System Like a jRPG
+      venue: TBD
+      time: TBD
+
+    - speaker: William Braswell
+      speaker_image: https://pretalx.com/media/avatars/98AJQH_JBJKHP3_thumbnail_default.webp
+      talk_link: https://pretalx.com/txlf2026/talk/review/HTBZNGLR7YSLK7HUEGBCRWZGA3TBN7T7
+      subject: Perl is Dead... Right?!?
+      venue: TBD
+      time: TBD
+
+    - speaker: Christopher Hobbs
+      speaker_image: https://pretalx.com/media/avatars/WHQPZJ_fh2W9Ei_thumbnail_default.webp
+      talk_link: https://pretalx.com/txlf2026/talk/review/GCQRWZN9DHLJCBLRMWACZFBRLXZHAPAC
+      subject: "Podman: A Practical Tour"
+      venue: TBD
+      time: TBD
+
+    - speaker: Kevin Purdy
+      speaker_image: https://pretalx.com/media/avatars/3PQDZT_rqvBkhh_thumbnail_default.webp
+      talk_link: https://pretalx.com/txlf2026/talk/review/MLHZQ7FGLHGBFGX9FL7LCEBFEY9L3CCY
+      subject: "Recruit your friends into a backup cult: Encrypted off-site redundancy with Kopia, Immich, and rclone"
+      venue: TBD
+      time: TBD
+
+    - speaker: Major Hayden
+      speaker_image: https://pretalx.com/media/avatars/HL3AYD_gmYP4FE_thumbnail_default.webp
+      talk_link: https://pretalx.com/txlf2026/talk/review/9KKNS7GE3X38KWNCDJ7A3LN7B9JFNHDQ
+      subject: Thou Shalt Not Make a Machine in the Likeness of a Senior Engineer
       venue: TBD
       time: TBD
 
