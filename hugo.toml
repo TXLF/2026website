@@ -166,11 +166,11 @@ hasChildren = true
   #name = "Gallery"
   #url = "gallery/"
 
-  #[[menu.main]]
-  #parent = "Get Involved"
-  #name = "Register"
-  #url = "pricing/"
-  #weight = 10
+  [[menu.main]]
+  parent = "Get Involved"
+  name = "Register"
+  url = "pricing/"
+  weight = 10
 
 
   [[menu.main]]
@@ -260,7 +260,7 @@ preloader = "" # use jpg, png, svg or gif format.
 # Navigation button
 [params.navigation_button]
 enable = true
-label = "Save the Date!"
+label = "Buy Ticket"
 icon = "images/icon/ticket.png"
 link = "pricing/"
 
