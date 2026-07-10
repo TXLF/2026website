@@ -174,13 +174,6 @@ tab:
       venue: TBD
       time: TBD
 
-    - speaker: Michael Yuan
-      speaker_image: https://pretalx.com/media/avatars/GDBVGD_yQdSXXS_thumbnail_default.webp
-      talk_link: https://pretalx.com/txlf2026/talk/review/TELBEFPDBWSPFWDU7L7GP7DTVYEEFLY7
-      subject: "Don’t Give Your AI Agent the House Keys: Running Sandboxed Agents on Your Own Linux Box"
-      venue: TBD
-      time: TBD
-
     - speaker: Thomas Cameron
       speaker_image: https://pretalx.com/media/avatars/BDYMQL_qLQBcrP_thumbnail_default.webp
       talk_link: https://pretalx.com/txlf2026/talk/review/9XNSSLDCZGBCSTFJL8SNEJFTT998NDZQ
