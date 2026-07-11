@@ -13,7 +13,7 @@
         </div>
       </div>
     </div>
-    {{ with site.Data.homepage.sponsors }}
+    {{ with hugo.Data.homepage.sponsors }}
     <div class="row">
       <div class="col-12">
         {{ range where .sponsor_group ".name" "eq" "After Party Sponsors" }}
