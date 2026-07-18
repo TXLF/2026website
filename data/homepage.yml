@@ -379,7 +379,7 @@ call_to_action:
 
 ############### Sponsors ##################
 sponsors:
-  enable : false
+  enable : true
   hide_sponsors_on_homepage: false
   title : "Our _Sponsors_"
   content : "Our sponsors allow us to continue to provide conferences!"
@@ -401,8 +401,12 @@ sponsors:
   #      logo: "images/sponsors/rackspace.png"
   #      link: "https://www.rackspace.com/cloud/openstack-flex"
 
-  # - name : "Gold Sponsors"
-  #   sponsor_item:
+  - name : "Gold Sponsors"
+    sponsor_item:
+      - name: Coder
+        logo: images/sponsors/coder.png
+        link: https://coder.com
+
   #     - name : "redhat"
   #       logo : "images/sponsors/redhat.svg"
   #       link: "https://www.redhat.com"
@@ -427,7 +431,12 @@ sponsors:
   #      logo: "images/sponsors/aws.svg"
   #      link: "https://aws.amazon.com/opensource/"
   #
-  # - name : "Silver Sponsors"
+  - name : "Silver Sponsors"
+    sponsor_item:
+      - name: 45HomeLab
+        logo: images/sponsors/45homelab.svg
+        link: https://45homelab.com
+
   #   sponsor_item:
   #     - name : "Framework"
   #       logo : "images/sponsors/framework.svg"
@@ -459,30 +468,38 @@ sponsors:
   #        logo: "images/sponsors/chainguard.png"
   #        link: "https://www.chainguard.dev"
 
-  - name: After Party Sponsors
-    link: party/
-    sponsor_item:
+  # - name: After Party Sponsors
+  #   link: party/
+  #   sponsor_item:
   #     - name: Meta
   #       logo: images/sponsors/meta.png
   #       link: https://about.meta.com
 
-  # - name: "Exhibitors"
-  #   sponsor_item:
-  #     - name: "Austin RISC-V"
-  #       logo: "images/sponsors/risc-v.webp"
-  #       link: "https://austinriscv.club/"
+  - name: "Exhibitors"
+    sponsor_item:
+      - name: Austin RISC-V
+        logo: images/sponsors/risc-v.webp
+        link: https://austinriscv.club
 
-  #     - name: Fedora
-  #       logo: images/sponsors/fedora.svg
-  #       link: https://fedoraproject.org
+      - name: Fedora
+        logo: images/sponsors/fedora.svg
+        link: https://fedoraproject.org
 
-  #     - name: CentOS
-  #       logo: images/sponsors/centos.svg
-  #       link: https://centos.org
+      - name: CentOS
+        logo: images/sponsors/centos.svg
+        link: https://centos.org
 
-  #     - name: Free Software Foundation
-  #       logo: images/sponsors/fsf.png
-  #       link: https://fsf.org
+      - name: Free Software Foundation
+        logo: images/sponsors/fsf.png
+        link: https://fsf.org
+
+      - name: DEVSA
+        logo: images/sponsors/devsa.svg
+        link: https://www.devsa.community
+
+      - name: PostgreSQL
+        logo: images/sponsors/postgresql.png
+        link: https://www.postgresql.org
 
   #    - name: "PyTexas"
   #      logo: "images/sponsors/pytexas.png"
