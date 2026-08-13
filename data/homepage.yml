@@ -449,11 +449,11 @@ sponsors:
   #     - name: "AlmaLinux"
   #       logo: "images/sponsors/almalinux.png"
   #       link: "https://almalinux.org"
-
-  #
-  #    - name: "Meta"
-  #      logo: "images/sponsors/meta.png"
-  #      link: "https://about.meta.com"
+  - name : "After-party Sponsor"
+    sponsor_item:
+      - name: "Meta"
+        logo: "images/sponsors/meta.png"
+        link: "https://about.meta.com"
   #
   #
   #    - name: "Cosmonic"
