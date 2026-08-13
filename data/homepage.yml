@@ -437,6 +437,10 @@ sponsors:
         logo: images/sponsors/45homelab.svg
         link: https://45homelab.com
 
+      - name: Rackspace
+        logo: images/sponsors/rackspace.svg
+        link: https://rackspace.com
+
   #   sponsor_item:
   #     - name : "Framework"
   #       logo : "images/sponsors/framework.svg"
