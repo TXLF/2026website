@@ -121,11 +121,11 @@ hasChildren = true
   url = "about/"
   weight = 1
 
-  #[[menu.main]]
-  #parent = "About TXLF"
-  #name = "Speakers"
-  #url = "speakers/"
-  #weight = 2
+  [[menu.main]]
+  parent = "About TXLF"
+  name = "Speakers"
+  url = "https://pretalx.com/txlf2026/speaker/"
+  weight = 2
 
   [[menu.main]]
   parent = "About TXLF"
@@ -153,7 +153,7 @@ hasChildren = true
 
 [[menu.main]]
 name = "Schedule"
-url = "schedule/"
+url = "https://pretalx.com/txlf2026/schedule/"
 weight = 4
 
 [[menu.main]]

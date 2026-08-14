@@ -157,7 +157,11 @@
             </div>
           </div>
           <div class="content text-center">
+            {{ if .Params.link }}
+            <h5><a href="{{ .Params.link }}">{{.Title }}</a></h5>
+            {{ else }}
             <h5><a href="{{ .Permalink }}">{{.Title }}</a></h5>
+            {{ end }}
             <p>{{ .Params.Designation | markdownify }}</p>
           </div>
         </div>
