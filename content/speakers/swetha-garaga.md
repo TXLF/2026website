@@ -4,7 +4,6 @@ description: "Texas Linux Fest 2026"
 page_header_bg: "images/background/page-title-bg.jpg"
 designation: "Senior Software Engineer"
 image: "images/speakers/swetha-garaga.jpg"
-current: true
 
 social:
   - icon: "fa-brands fa-linkedin"
@@ -13,7 +12,6 @@ social:
 talks:
   - title: "Human‑Centered Automation: Equity and Efficiency in Modern Warehousing"
     link: "talks/human-centered-automation-equity-and-efficiency-in-modern-warehousing/"
-    current: true
 
 ---
 Swetha Garaga is a highly experienced Senior Software Engineer with a strong 

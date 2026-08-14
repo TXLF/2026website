@@ -4,7 +4,6 @@ description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 designation: Principal Solutions Engineer
 image: images/speakers/matthew-penaroza.jpg
-current: true
 
 social:
   - icon: fa-brands fa-linkedin
@@ -13,7 +12,6 @@ social:
 talks:
   - title: Mastering Database Selection for System Design
     link: talks/mastering-database-selection-for-system-design/
-    current: true
 ---
 
 I'm a Principal Solutions Engineer at TiDB, where I help enterprises design

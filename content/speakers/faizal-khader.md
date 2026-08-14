@@ -4,7 +4,6 @@ description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 designation: Staff Solutions Architect
 image: images/speakers/faizal-khader.jpg
-current: true
 
 social:
   - icon: fa-brands fa-linkedin
@@ -15,7 +14,6 @@ social:
 talks:
   - title: Explore Deploying and Managing Large Language Models with Red Hat Enterprise Linux 10 and Red Hat AI Serving
     link: talks/explore-deploying-and-managing-large-language-models-with-red-hat-enterprise-linux-10-and-red-hat-ai-serving/
-    current: true
 ---
 
 Faizal Khader, Associate Principal Solution Architect at Red Hat, brings

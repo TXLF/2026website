@@ -4,7 +4,6 @@ description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 designation: Principal Solution Architect
 image: images/speakers/raul-leite.jpg
-current: true
 
 social:
   - icon: fa-brands fa-linkedin
@@ -17,7 +16,6 @@ social:
 talks:
   - title: Building AI Workloads locally with Podman 
     link: talks/building-ai-workloads-locally-with-podman/
-    current: true
 ---
 
 At Red Hat, Raul Leite serves as a Principal Solution Architect.  Raul is a

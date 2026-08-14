@@ -4,7 +4,6 @@ description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 designation: Open Source Developer Advocate
 image: images/speakers/joshua-lee.jpg
-current: true
 
 social:
   - icon: fa-solid fa-globe
@@ -19,7 +18,6 @@ social:
 talks:
   - title: "Magical Mystery Tour: A Roundup of Observability Datastores"
     link: talks/magical-mystery-tour-a-roundup-of-observability-datastores/
-    current: true
 ---
 
 Joshua is a seasoned software developer with over a decade of experience,

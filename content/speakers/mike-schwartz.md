@@ -4,7 +4,6 @@ description: Texas Linux Fest 2026
 page_header_bg: "images/background/page-title-bg.jpg"
 designation: Gluu Founder
 image: "images/speakers/mike-schwartz.jpg"
-current: true
 
 social:
   - icon: fa-solid fa-globe
@@ -15,7 +14,6 @@ social:
 talks:
   - title: "Security That Scales: How Cedar is Rewriting the Rules of Access"
     link: "talks/security-that-scales-how-cedar-is-rewriting-the-rules-of-access/"
-    current: true
 ---
 
 Mike is the Founder/CEO of Gluu, and leads the Linux Foundation Janssen Project.

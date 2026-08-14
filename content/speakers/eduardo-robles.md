@@ -4,7 +4,6 @@ description: Texas Linux Fest 2026
 page_header_bg: images/background/page-title-bg.jpg
 designation: "Cybersecurity Analyst"
 image: images/speakers/eduardo-robles.jpg
-current: true
 
 social:
   - icon: fa-solid fa-globe
@@ -19,7 +18,6 @@ social:
 talks:
   - title: "I got Malware, BTW. A quick look at the rising trend of Linux Malware."
     link: "talks/i-got-malware-btw/"
-    current: true
 ---
 
 Eduardo Robles works for County of Hidalgo IT department as a Cybersecurity 

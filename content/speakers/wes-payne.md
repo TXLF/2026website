@@ -4,7 +4,6 @@ description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 designation: Senior Software Development Engineer
 image: images/speakers/wes-payne.jpg
-current: true
 
 social:
   - icon: fa-brands fa-linkedin
@@ -17,7 +16,6 @@ social:
 talks:
   - title: Mesh Network Sidecars for NixOS Services
     link: talks/mesh-network-sidecars-for-nixos-services/
-    current: true
 ---
 
 Wes is a Seattle-based software engineer focused on open source, functional

@@ -4,7 +4,6 @@ description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 designation: Principal Architect
 image: images/speakers/james-denton.png
-current: true
 
 social:
   - icon: fa-solid fa-globe
@@ -17,7 +16,6 @@ social:
 talks:
   - title: "From Open Source to Open Talk: Meet the Experts"
     link: talks/from-open-source-to-open-talk-meet-the-experts/
-    current: true
 ---
 
 I've been in the Information Technology field for over 15 years, cutting my

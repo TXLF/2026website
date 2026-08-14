@@ -4,7 +4,6 @@ description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 designation: Linux Systems Architect
 image: images/speakers/carl-thompson.jpg
-current: true
 
 social:
   - icon: fa-brands fa-linkedin
@@ -15,7 +14,6 @@ social:
 talks:
   - title: Demystifying SELinux
     link: talks/demystifying-selinux/
-    current: true
 ---
 
 I am Carl "Redragon" Thompson.

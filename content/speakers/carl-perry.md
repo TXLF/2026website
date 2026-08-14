@@ -4,7 +4,6 @@ description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 designation: Senior Software Engineer
 image: images/speakers/carl-perry.jpg
-current: true
 
 social:
   - icon: fa-solid fa-globe
@@ -19,7 +18,6 @@ social:
 talks:
   - title: "Linux on RISC-V: Where we are, where we're going, and how you can jump in"
     link: talks/linux-on-risc-v-where-we-are-where-were-going-and-how-you-can-jump-in/
-    current: true
 ---
 
 Carl is a RISC-V Ambassador, organizer of the Austin RISC-V Group, but that's

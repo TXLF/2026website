@@ -4,7 +4,6 @@ description: Texas Linux Fest
 page_header_bg: "images/background/page-title-bg.jpg"
 designation: Principal Partner Solutions Architect
 image: "images/speakers/david-duncan.jpg"
-current: true
 
 social:
   - icon: fa-brands fa-linkedin
@@ -21,7 +20,6 @@ talks:
     link: "talks/building-a-fedora-kde-image-for-use-with-public-cloud-providers/"
   - title: "The Great Texas Agent-Off: RamaLama, Podman, and DIY AI Bots!"
     link: talks/the-great-texas-agent-off-ramalama-podman-and-diy-ai-bots/
-    current: true
 ---
 
 David Duncan is an AWS Partner Solution Architect who is keenly focused on open

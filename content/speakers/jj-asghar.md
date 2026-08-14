@@ -4,7 +4,6 @@ description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 designation: Developer Advocate
 image: images/speakers/jj-asghar.jpg
-current: true
 
 social:
   - icon: fa-solid fa-globe
@@ -19,7 +18,6 @@ social:
 talks:
   - title: Using Open Source AI and Linux to help Medical School Students
     link: talks/using-open-source-ai-and-linux-to-help-medical-school-students/
-    current: true
 ---
 
 JJ works as a Developer Advocate representing the IBM Cloud all over the world.

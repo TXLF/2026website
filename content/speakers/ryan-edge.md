@@ -4,7 +4,6 @@ description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 designation: Senior Software Engineeer
 image: images/speakers/ryan-edge.jpg
-current: true
 
 social:
   - icon: fa-brands fa-linkedin
@@ -19,7 +18,6 @@ social:
 talks:
   - title: "Accelerating Linux Application Development with Flutter: A Hands-on Workshop"
     link: talks/accelerating-linux-application-development-with-flutter-a-hands-on-workshop/
-    current: true
 ---
 
 Ryan Edge is a software engineer and Flutter GDE living in Charlotte, North

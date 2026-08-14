@@ -4,7 +4,6 @@ description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 designation: Compute Engineer
 image: images/speakers/sai-durga-rithvik-oruganti.jpg
-current: true
 
 social:
   - icon: fa-brands fa-linkedin
@@ -15,7 +14,6 @@ social:
 talks:
   - title: "Lessons They Don't Teach You in School: A Year in High-Performance Computing"
     link: talks/lessons-they-dont-teach-you-in-school-a-year-in-high-performance-computing/
-    current: true
 ---
 
 Sai is a Compute Engineer at G-Research specializing in Linux and distributed

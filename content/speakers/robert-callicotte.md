@@ -4,7 +4,6 @@ description: Texas Linux Fest
 page_header_bg: "images/background/page-title-bg.jpg"
 designation: Devops Supervisor
 image: "images/speakers/robert-callicotte.jpg"
-current: true
 
 social:
   - icon: fa-brands fa-linkedin
@@ -17,7 +16,6 @@ social:
 talks:
   - title: "Running CentOS Stream in Production"
     link: "talks/running-centos-stream-in-production/"
-    current: true
 ---
 
 Open source advocate. Fedora package maintainer, EPEL package maintainer, and

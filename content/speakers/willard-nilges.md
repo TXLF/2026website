@@ -4,7 +4,6 @@ description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 designation: Software Engineer
 image: images/speakers/willard-nilges.jpg
-current: true
 
 social:
   - icon: fa-solid fa-globe
@@ -19,7 +18,6 @@ social:
 talks:
   - title: Lessons Learned Building Observability for a Non-Profit
     link: talks/lessons-learned-building-observability-for-a-non-profit/
-    current: true
 ---
 
 Willard is a distributed systems hacker by day, network administrator by night.

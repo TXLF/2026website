@@ -4,7 +4,6 @@ description: Texas Linux Fest
 page_header_bg: "images/background/page-title-bg.jpg"
 designation: "Principal Architect"
 image: "images/speakers/matthew-boehm.jpg"
-current: true
 
 social:
   - icon: fa-solid fa-globe
@@ -19,10 +18,8 @@ talks:
     link: "talks/migrating-mysql-to-kubernetes/"
   - title: "Valkey 101: Keep Calm, and Fork On"
     link: talks/valkey-101-keep-calm-and-fork-on/
-    current: true
   - title: "False Positives, Real Gains: Valkey's Probabilistic Filters"
     link: talks/false-positives-real-gains-valkeys-probabilistic-filters/
-    current: true
 ---
 
 My name is Matthew (not Matt).  I've been with Percona for 16 years, and have

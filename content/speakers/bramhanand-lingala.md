@@ -4,7 +4,6 @@ description: "Texas Linux Fest 2026"
 page_header_bg: "images/background/page-title-bg.jpg"
 designation: "Data Engineer & SRE"
 image: "images/speakers/bramhanand-lingala.jpg"
-current: true
 
 social:
   - icon: "fa-brands fa-linkedin"
@@ -13,8 +12,6 @@ social:
 talks:
   - title: "Adopting NoSQL at Scale: Strategic Models, Performance Trade-Offs, and Integration Pitfalls"
     link: "talks/adopting-nosql-at-scale-strategic-models-performance-trade-offs-and-integration-pitfalls/"
-    current: true
-
 ---
 Bramhanand Lingala is a seasoned Senior Data Engineer and certified Google 
 Associate Cloud Engineer with over 20 years of experience in data infrastructure

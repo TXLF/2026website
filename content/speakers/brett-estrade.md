@@ -4,7 +4,6 @@ description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 designation: Chairman, Science Perl Committee; Co-Editor Science Perl Journal
 image: images/speakers/brett-estrade.jpg
-current: true
 
 social:
   - icon: fa-solid fa-globe
@@ -17,7 +16,6 @@ social:
 talks:
   - title: Real-Time Hurricane Storm Surge Prediction using Open Source
     link: talks/real-time-hurricane-storm-surge-prediction-using-open-source/
-    current: true
 ---
 
 **Brett Estrade** is a Houston-based software developer and open-source

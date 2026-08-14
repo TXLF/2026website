@@ -4,8 +4,6 @@ description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 designation: Senior Principal Software Engineer
 image: images/speakers/major-hayden.png
-current: true
-featured: true
 
 social:
   - icon: fa-solid fa-globe
@@ -24,7 +22,6 @@ talks:
     link: talks/automated-container-updates-with-github-coreos/
   - title: Don't tell me RAG is easy
     link: talks/dont-tell-me-rag-is-easy/
-    current: true
 ---
 
 Major works on all kinds of technology at Red Hat, including artificial
