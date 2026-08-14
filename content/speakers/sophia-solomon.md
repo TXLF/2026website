@@ -4,8 +4,6 @@ description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 designation: Developer Advocate
 image: images/speakers/sophia-solomon.jpg
-current: true
-featured: true
 
 social:
   - icon: fa-brands fa-linkedin
@@ -14,7 +12,6 @@ social:
 talks:
   - title: "Grep Can't Help You Now: Observability for LLMs"
     link: talks/grep-cant-help-you-now-observability-for-llms/
-    current: true
 ---
 
 Hello, my name is Sophia!  With a background in Biochemistry from UT Austin, I

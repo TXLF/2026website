@@ -4,7 +4,6 @@ description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 designation: Senior Strategic Product Manager
 image: images/speakers/ken-crandall.jpg
-current: true
 
 social:
   - icon: fa-solid fa-globe
@@ -19,10 +18,8 @@ social:
 talks:
   - title: "Build Your Own Cloud: Batteries Included!"
     link: talks/build-your-own-cloud-batteries-included/
-    current: true
   - title: "From Open Source to Open Talk: Meet the Experts"
     link: talks/from-open-source-to-open-talk-meet-the-experts/
-    current: true
 ---
 
 Ken Crandall runs Strategic Product Management for OpenStack and Kubernetes at

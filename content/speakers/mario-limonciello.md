@@ -4,7 +4,6 @@ description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 designation: Principal Member of Technical Staff
 image: images/speakers/mario-limonciello.jpg
-current: true
 
 social:
   - icon: fa-brands fa-linkedin
@@ -17,7 +16,6 @@ social:
 talks:
   - title: SteamOS™ on the Lenovo™ Go S
     link: talks/steamos-on-the-lenovo-go-s/
-    current: true
 ---
 
 For my day job I work at AMD for the Client Linux team.  Besides my day job I

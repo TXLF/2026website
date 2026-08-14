@@ -4,7 +4,6 @@ description: "Texas Linux Fest 2026"
 page_header_bg: "images/background/page-title-bg.jpg"
 designation: "UNIX Software Engineer"
 image: "images/speakers/kory-heard.jpg"
-current: true
 
 social:
   - icon: "fa-brands fa-linkedin"
@@ -16,7 +15,6 @@ social:
 talks:
   - title: "The Design & Implementation of the Darwin Operating System"
     link: "talks/the-design-and-implementation-of-the-darwin-operating-system/"
-    current: true
 
 ---
 

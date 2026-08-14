@@ -4,7 +4,6 @@ description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 designation: Software Engineer
 image: images/speakers/sean-thrailkill.jpg
-current: true
 
 social:
   - icon: fa-solid fa-globe
@@ -19,7 +18,6 @@ social:
 talks:
   - title: Create Your Own Bootable Container!
     link: talks/create-your-own-bootable-container/
-    current: true
 ---
 
 Sean is a Software Engineer with 15 years of experience who has a passion for

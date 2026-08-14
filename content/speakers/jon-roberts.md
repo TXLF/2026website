@@ -4,7 +4,6 @@ description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 designation: Development Manager
 image: images/speakers/jon-roberts.jpg
-current: true
 
 social:
   - icon: fa-brands fa-linkedin
@@ -17,7 +16,6 @@ social:
 talks:
   - title: "WSL: Meet the bastard I adopted and learn to play with them."
     link: talks/wsl-meet-the-bastard-i-adopted-and-learn-to-play-with-them/
-    current: true
 ---
 
 Jon has over 25 years of experience in software development working in

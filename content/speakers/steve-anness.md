@@ -4,7 +4,6 @@ description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 designation: Senior Customer Success Architect
 image: images/speakers/steve-anness.png
-current: true
 
 social:
   - icon: fa-brands fa-linkedin
@@ -15,7 +14,6 @@ social:
 talks:
   - title: Auto-instrument all the things with Beyla
     link: talks/auto-instrument-all-the-things-with-beyla/
-    current: true
 ---
 
 Steve Anness is a Senior Customer Success Architect @ Grafana Labs, where he

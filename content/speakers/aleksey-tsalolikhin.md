@@ -4,7 +4,6 @@ description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 designation: Site Reliability Engineer
 image: images/speakers/aleksey-tsalolikhin.jpg
-current: true
 
 social:
   - icon: fa-solid fa-globe
@@ -19,7 +18,6 @@ social:
 talks:
   - title: "Power Editing with Vi: Basics"
     link: talks/power-editing-with-vi-basics/
-    current: true
 ---
 
 Aleksey Tsalolikhin started his IT career in tech support at EarthLink (ISP) in

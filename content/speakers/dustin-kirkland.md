@@ -4,8 +4,6 @@ description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 designation: Senior Vice President
 image: images/speakers/dustin-kirkland.jpg
-current: true
-featured: true
 
 social:
   - icon: fa-solid fa-globe

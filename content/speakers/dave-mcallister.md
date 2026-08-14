@@ -4,7 +4,6 @@ description: "Texas Linux Fest 2026"
 page_header_bg: "images/background/page-title-bg.jpg"
 designation: "Open Source Technologist"
 image: "images/speakers/dave-mcallister.jpg"
-current: true
 
 social:
   - icon: "fa-solid fa-globe"
@@ -18,8 +17,6 @@ social:
 talks:
   - title: "Exploring Kubernetes Gateway API and NGINX Gateway Fabric"
     link: "talks/exploring-kubernetes-gateway-api-and-nginx-gateway-fabric/"
-    current: true
-
 ---
 
 Currently providing technical evangelism for NGINX, Dave works with DevOps, 

@@ -4,7 +4,6 @@ description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 designation: Product Director
 image: images/speakers/kevin-carter.jpg
-current: true
 
 social:
   - icon: fa-solid fa-globe
@@ -19,7 +18,6 @@ social:
 talks:
   - title: "From Open Source to Open Talk: Meet the Experts"
     link: talks/from-open-source-to-open-talk-meet-the-experts/
-    current: true
 ---
 
 I am a technologist on a mission to simplify and automate.  I'm a passionate

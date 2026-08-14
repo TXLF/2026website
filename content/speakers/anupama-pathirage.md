@@ -4,7 +4,6 @@ description: "Texas Linux Fest 2026"
 page_header_bg: "images/background/page-title-bg.jpg"
 designation: "Head of Engineering"
 image: "images/speakers/anupama-pathirage.jpg"
-current: true
 
 social:
   - icon: "fa-solid fa-blog"
@@ -20,8 +19,6 @@ social:
 talks:
   - title: "Effortless Cloud Integrations: Ballerina for Kubernetes and Beyond"
     link: "talks/effortless-cloud-integrations-ballerina-for-kubernetes-and-beyond/"
-    current: true
-
 ---
 
 Anupama, Head of Engineering - Integration at WSO2, leads the development of the

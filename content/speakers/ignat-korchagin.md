@@ -4,7 +4,6 @@ description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 designation: Senior Engineering Manager
 image: images/speakers/ignat-korchagin.jpg
-current: true
 
 social:
   - icon: fa-solid fa-globe
@@ -19,7 +18,6 @@ social:
 talks:
   - title: An engineer's guide to Linux Kernel upgrades
     link: talks/an-engineers-guide-to-linux-kernel-upgrades/
-    current: true
 ---
 
 Ignat is a systems engineer at Cloudflare working mostly on Linux, platforms

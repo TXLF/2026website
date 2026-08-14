@@ -4,7 +4,6 @@ description: Texas Linux Fest
 page_header_bg: "images/background/page-title-bg.jpg"
 designation: "Software Engineer"
 image: "images/speakers/caleb-schoepp.jpg"
-current: true
 
 social:
   - icon: fa-solid fa-globe
@@ -21,7 +20,6 @@ talks:
     link: "talks/what-actually-is-webassembly/"
   - title: "Truly Portable Code: Serverless WebAssembly in a Distributed World"
     link: talks/truly-portable-code-serverless-webassembly-in-a-distributed-world/
-    current: true
 ---
 
 Caleb Schoepp is a software engineer at Fermyon. Before working at Fermyon he

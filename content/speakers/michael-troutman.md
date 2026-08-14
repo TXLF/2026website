@@ -4,7 +4,6 @@ description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 designation: Documentation Specialist
 image: images/speakers/michael-troutman.jpg
-current: true
 
 social:
   - icon: fa-solid fa-globe
@@ -19,7 +18,6 @@ social:
 talks:
   - title: Lifting the Documentation Burden with Open Source Tools and Resources
     link: talks/lifting-the-documentation-burden-with-open-source-tools-and-resources/
-    current: true
 ---
 
 Michael Troutman works as a documentation specialist at LINBIT, an HA, SDS, and

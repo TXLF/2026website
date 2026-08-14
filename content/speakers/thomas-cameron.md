@@ -4,7 +4,6 @@ description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 designation: Senior Principal Solution Architect
 image: images/speakers/thomas-cameron.jpg
-current: true
 
 social:
   - icon: fa-brands fa-linkedin
@@ -23,7 +22,6 @@ talks:
     link: talks/learning-okd-on-premise/
   - title: Getting Started with Ansible on Linux
     link: talks/getting-started-with-ansible-on-linux/
-    current: true
 ---
 
 Thomas Cameron has been in IT since 1993.  He started out with Novell NetWare,

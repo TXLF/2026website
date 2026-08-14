@@ -4,7 +4,6 @@ description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 designation: Software Engineer
 image: images/speakers/mayur-bhandari.jpg
-current: true
 
 social:
   - icon: fa-brands fa-linkedin
@@ -13,7 +12,6 @@ social:
 talks:
   - title: "Building Smart Cities with Open Source: How Linux-Based Distributed Systems Are Transforming Urban Infrastructure"
     link: talks/building-smart-cities-with-open-source/
-    current: true
 ---
 
 Mayur Bhandari is a Software Engineer 2 at Microsoft with over 9 years of

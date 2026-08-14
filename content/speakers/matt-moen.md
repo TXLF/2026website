@@ -4,7 +4,6 @@ description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 designation: President, Austin ISSA
 image: images/speakers/matt-moen.jpg
-current: true
 
 social:
   - icon: fa-solid fa-globe
@@ -15,7 +14,6 @@ social:
 talks:
   - title: Encrypting Your Infrastructure Without Getting Fired
     link: talks/encrypting-your-infrastructure-without-getting-fired/
-    current: true
 ---
 
 Matt has been involved with all things Security, Open Source and Linux since

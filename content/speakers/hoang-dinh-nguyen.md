@@ -4,7 +4,6 @@ description: "Texas Linux Fest 2026"
 page_header_bg: "images/background/page-title-bg.jpg"
 designation: "Platform Engineer"
 image: "images/speakers/hoang-dinh-nguyen.jpg"
-current: true
 
 social:
   - icon: "fa-solid fa-globe"
@@ -17,8 +16,6 @@ social:
 talks:
   - title: "Kusion and Internal Developer Platform: Optimize the Software Development Process"
     link: "talks/kusion-and-internal-developer-platform-optimize-the-software-develement-process/"
-    current: true
-
 ---
 Maintainer of KusionStack - first-ever open-source project which included in 
 both the CNCF Sandbox and the Platform Tooling Landscape that focuses on the 

@@ -4,7 +4,6 @@ description: Texas Linux Fest
 page_header_bg: "images/background/page-title-bg.jpg"
 designation: "Principal Engineer and Enterprise Architect"
 image: "images/speakers/cody-lee-cochran.jpg"
-current: true
 
 social:
   - icon: fa-brands fa-linkedin
@@ -19,7 +18,6 @@ talks:
     link: "talks/bash-programming/"
   - title: "Pipelines as a Service: Codifying Workflows & Other Tribal Knowledge"
     link: talks/pipelines-as-a-service-codifying-workflows-other-tribal-knowledge/
-    current: true
 ---
 
 Cody Lee Cochran is a Principal Engineer and Enterprise Architect for a small,

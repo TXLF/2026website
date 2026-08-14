@@ -4,7 +4,6 @@ description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 designation: Senior System Software Engineer
 image: images/speakers/chris-arges.jpg
-current: true
 
 social:
   - icon: fa-solid fa-globe
@@ -19,7 +18,6 @@ social:
 talks:
   - title: Verified Debian Packaging at Scale
     link: talks/verified-debian-packaging-at-scale/
-    current: true
 ---
 
 I'm a Senior System Software Engineer at Cloudflare, with extensive experience
