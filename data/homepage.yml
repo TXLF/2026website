@@ -499,6 +499,10 @@ sponsors:
         logo: images/sponsors/postgresql.png
         link: https://www.postgresql.org
 
+      - name: Butter, What?!
+        logo: images/sponsors/butterwhat.png
+        link: https://butterwhat.com/
+
       - name: Rocky Linux
         logo: images/sponsors/rocky-linux.png
         link: https://www.rockylinux.org
