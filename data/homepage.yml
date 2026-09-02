@@ -407,10 +407,6 @@ sponsors:
         logo: images/sponsors/coder.png
         link: https://coder.com
 
-  #     - name : "redhat"
-  #       logo : "images/sponsors/redhat.svg"
-  #       link: "https://www.redhat.com"
-
   #     - name: "elastic"
   #       logo: "images/sponsors/elastic.svg"
   #       link: "https://www.elastic.co"
@@ -441,6 +437,10 @@ sponsors:
         logo: images/sponsors/rackspace.svg
         link: https://rackspace.com
 
+      - name : Red Hat
+        logo : "images/sponsors/redhat.svg"
+        link: "https://www.redhat.com"
+
   #   sponsor_item:
   #     - name : "Framework"
   #       logo : "images/sponsors/framework.svg"
@@ -460,17 +460,11 @@ sponsors:
   #      logo: "images/sponsors/cosmonic.png"
   #      link: "https://cosmonic.com/"
   #
-  #- name : "Community Sponsors"
-  #  sponsor_item:
-  #  - name : "sponsor"
-  #    logo : "images/sponsors/com-spon-one.png"
-  #    link : "/sponsorship"
-
-  # - name: "Track Sponsors"
-  #   sponsor_item:
-  #      - name: "Chainguard"
-  #        logo: "images/sponsors/chainguard.png"
-  #        link: "https://www.chainguard.dev"
+  - name: "Track Sponsors"
+    sponsor_item:
+       - name: "Chainguard"
+         logo: "images/sponsors/chainguard.png"
+         link: "https://www.chainguard.dev"
 
   # - name: After Party Sponsors
   #   link: party/
@@ -505,10 +499,24 @@ sponsors:
         logo: images/sponsors/postgresql.png
         link: https://www.postgresql.org
 
+      - name: Butter, What?!
+        logo: images/sponsors/butterwhat.png
+        link: https://butterwhat.com/
+
+      - name: Rocky Linux
+        logo: images/sponsors/rocky-linux.png
+        link: https://www.rockylinux.org
+
   #    - name: "PyTexas"
   #      logo: "images/sponsors/pytexas.png"
   #      link: "https://www.pytexas.org"
   #
+  - name : "Community Sponsors"
+    sponsor_item:
+      - name : "Commit Your Code"
+        logo : "images/sponsors/commit-your-code.svg"
+        link : "https://commityourcode.com"
+
   # - name: "Media & Swag"
   #   sponsor_item:
   #     - name: Jupiter Broadcasting
