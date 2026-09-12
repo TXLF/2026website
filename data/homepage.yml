@@ -446,9 +446,10 @@ sponsors:
   #       logo : "images/sponsors/framework.svg"
   #       link: "https://frame.work/"
 
-  #     - name: "AlmaLinux"
-  #       logo: "images/sponsors/almalinux.png"
-  #       link: "https://almalinux.org"
+      - name: "AlmaLinux"
+        logo: "images/sponsors/almalinux.png"
+        link: "https://almalinux.org"
+
   - name : "After-party Sponsor"
     sponsor_item:
       - name: "Meta"
