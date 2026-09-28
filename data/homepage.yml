@@ -464,7 +464,7 @@ sponsors:
   - name: "Track Sponsors"
     sponsor_item:
        - name: "Chainguard"
-         logo: "images/sponsors/chainguard.png"
+         logo: "images/sponsors/chainguard-logo-purple.png"
          link: "https://www.chainguard.dev"
 
   # - name: After Party Sponsors
