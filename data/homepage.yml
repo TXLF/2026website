@@ -407,10 +407,6 @@ sponsors:
         logo: images/sponsors/coder.png
         link: https://coder.com
 
-  #     - name: "elastic"
-  #       logo: "images/sponsors/elastic.svg"
-  #       link: "https://www.elastic.co"
-
   #     - name: "Percona"
   #       logo: "images/sponsors/percona.png"
   #       link: "https://www.percona.com/"
@@ -440,6 +436,10 @@ sponsors:
       - name : Red Hat
         logo : "images/sponsors/redhat.svg"
         link: "https://www.redhat.com"
+
+      - name: "elastic"
+        logo: "images/sponsors/elastic.svg"
+        link: "https://www.elastic.co"
 
   #   sponsor_item:
   #     - name : "Framework"
