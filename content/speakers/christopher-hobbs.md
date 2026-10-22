@@ -5,7 +5,6 @@ page_header_bg: images/background/page-title-bg.jpg
 designation: Infrastructure Engineer
 link: https://pretalx.com/txlf2026/speaker/BTDC83/
 image: https://pretalx.com/media/avatars/WHQPZJ_fh2W9Ei.webp
-featured: true
 
 social:
   - icon: fa-brands fa-linkedin
