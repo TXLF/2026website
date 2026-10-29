@@ -225,11 +225,11 @@ hasChildren = true
   url = "https://commons.utexas.edu/about-us/location-information#parking"
   weight = 40
 
-  #[[menu.main]]
-  #parent = "Venue"
-  #name = "Print your Parking Permit"
-  #url = "/images/txlf-parking-permit.pdf"
-  #weight = 50
+  [[menu.main]]
+  parent = "Venue"
+  name = "Print your Parking Permit"
+  url = "/images/txlf-parking-permit.pdf"
+  weight = 50
 
 
 [[menu.main]]
