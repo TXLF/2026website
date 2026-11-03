@@ -3,7 +3,6 @@ title: Don Marti
 description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 designation: Strategic Advisor
-link: https://pretalx.com/txlf2026/speaker/M8HM79/
 image: https://pretalx.com/media/avatars/avatar_Ow5ypum.webp
 featured: true
 
@@ -14,6 +13,13 @@ social:
     link: https://www.linkedin.com/in/dmarti/
   - icon: fa-brands fa-github
     link: https://github.com/dmarti
+link: "https://pretalx.com/txlf2026/speaker/M8HM79/"
+current: true
+pretalx_code: "M8HM79"
+
+talks:
+  - title: "Surviving the Rugpull Economy"
+    link: "talks/surviving-the-rugpull-economy/"
 ---
 
 Don Marti is the founder of Aloodo LLC. He works on web ecosystem and open

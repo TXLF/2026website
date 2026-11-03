@@ -14,12 +14,17 @@ social:
     link: https://x.com/davdunc
   - icon: fa-brands fa-mastodon
     link: https://fosstodon.org/@davdunc
+link: "https://pretalx.com/txlf2026/speaker/GQJBDV/"
+current: true
+pretalx_code: "GQJBDV"
 
 talks:
   - title: "Building a Fedora KDE image for use with Public Cloud Providers"
     link: "talks/building-a-fedora-kde-image-for-use-with-public-cloud-providers/"
   - title: "The Great Texas Agent-Off: RamaLama, Podman, and DIY AI Bots!"
-    link: talks/the-great-texas-agent-off-ramalama-podman-and-diy-ai-bots/
+    link: "talks/the-great-texas-agent-off-ramalama-podman-and-diy-ai-bots/"
+  - title: "RamaLama + Podman Quadlets — Build Task-Specific AI Services with systemd"
+    link: "talks/ramalama-podman-quadlets-build-task-specific-ai-services-with-systemd/"
 ---
 
 David Duncan is an AWS Partner Solution Architect who is keenly focused on open

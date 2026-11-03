@@ -11,11 +11,15 @@ social:
   - name: "twitter"
     icon: "fa-brands fa-twitter"
     link: "https://x.com/XNUniverse"
+link: "https://pretalx.com/txlf2026/speaker/Q837JR/"
+current: true
+pretalx_code: "Q837JR"
 
 talks:
   - title: "The Design & Implementation of the Darwin Operating System"
     link: "talks/the-design-and-implementation-of-the-darwin-operating-system/"
-
+  - title: "The Design and Implementation of the 5BSD Operating System"
+    link: "talks/the-design-and-implementation-of-the-5bsd-operating-system/"
 ---
 
 Kory Heard is a UNIX software engineer and security researcher with expertise 

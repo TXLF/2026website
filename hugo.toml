@@ -145,15 +145,14 @@ hasChildren = true
   url = "faq/"
   weight = 5
 
-# uncomment when call for papers is closed
-#[[menu.main]]
-#name = "Speakers"
-#url = "speakers/"
-#weight = 3
+[[menu.main]]
+name = "Speakers"
+url = "speakers/"
+weight = 3
 
 [[menu.main]]
 name = "Schedule"
-url = "https://pretalx.com/txlf2026/schedule/"
+url = "schedule/"
 weight = 4
 
 [[menu.main]]

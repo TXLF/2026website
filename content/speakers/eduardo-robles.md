@@ -14,10 +14,15 @@ social:
     link: https://infosec.exchange/@tacosandlinux_
   - icon: fa-brands fa-github
     link: https://github.com/eduardo-robles
+link: "https://pretalx.com/txlf2026/speaker/9FPEHA/"
+current: true
+pretalx_code: "9FPEHA"
 
 talks:
   - title: "I got Malware, BTW. A quick look at the rising trend of Linux Malware."
     link: "talks/i-got-malware-btw/"
+  - title: "Attack of the AI Bots!!"
+    link: "talks/attack-of-the-ai-bots/"
 ---
 
 Eduardo Robles works for County of Hidalgo IT department as a Cybersecurity 

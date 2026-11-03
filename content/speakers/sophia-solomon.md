@@ -8,10 +8,15 @@ image: images/speakers/sophia-solomon.jpg
 social:
   - icon: fa-brands fa-linkedin
     link: https://www.linkedin.com/in/sophia-solomon-j/
+link: "https://pretalx.com/txlf2026/speaker/BPDHYS/"
+current: true
+pretalx_code: "BPDHYS"
 
 talks:
   - title: "Grep Can't Help You Now: Observability for LLMs"
-    link: talks/grep-cant-help-you-now-observability-for-llms/
+    link: "talks/grep-cant-help-you-now-observability-for-llms/"
+  - title: "How to Upgrade Your System Like a jRPG"
+    link: "talks/how-to-upgrade-your-system-like-a-jrpg/"
 ---
 
 Hello, my name is Sophia!  With a background in Biochemistry from UT Austin, I

@@ -21,6 +21,7 @@ social:
 - name: "website"
   icon: "fa-solid fa-globe"
   link: "https://princessleia.com/"
+link: "https://pretalx.com/txlf2026/speaker/QCL7GQ/"
 
 talks:
   - title: "Why (and how) would you run Linux on the Mainframe?"

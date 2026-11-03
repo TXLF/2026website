@@ -14,10 +14,15 @@ social:
     link: https://github.com/arges
   - icon: fa-brands fa-x-twitter
     link: https://x.com/chrisarges
+link: "https://pretalx.com/txlf2026/speaker/QDSWNE/"
+current: true
+pretalx_code: "QDSWNE"
 
 talks:
-  - title: Verified Debian Packaging at Scale
-    link: talks/verified-debian-packaging-at-scale/
+  - title: "Verified Debian Packaging at Scale"
+    link: "talks/verified-debian-packaging-at-scale/"
+  - title: "Mitigating All The Vulns with BPF-LSM: A Tutorial"
+    link: "talks/mitigating-all-the-vulns-with-bpf-lsm-a-tutorial/"
 ---
 
 I'm a Senior System Software Engineer at Cloudflare, with extensive experience

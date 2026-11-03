@@ -14,14 +14,19 @@ social:
     link: https://github.com/major
   - icon: fa-brands fa-mastodon
     link: https://tootloop.com/@major
+link: "https://pretalx.com/txlf2026/speaker/YUEZN7/"
+current: true
+pretalx_code: "YUEZN7"
 
 talks:
-  - title: Five tips for a thriving technology career
-    link: talks/five-tips-for-a-thriving-technology-career/
-  - title: Automated container updates with GitHub & CoreOS
-    link: talks/automated-container-updates-with-github-coreos/
-  - title: Don't tell me RAG is easy
-    link: talks/dont-tell-me-rag-is-easy/
+  - title: "Five tips for a thriving technology career"
+    link: "talks/five-tips-for-a-thriving-technology-career/"
+  - title: "Automated container updates with GitHub & CoreOS"
+    link: "talks/automated-container-updates-with-github-coreos/"
+  - title: "Don't tell me RAG is easy"
+    link: "talks/dont-tell-me-rag-is-easy/"
+  - title: "Thou Shalt Not Make a Machine in the Likeness of a Senior Engineer"
+    link: "talks/thou-shalt-not-make-a-machine-in-the-likeness-of-a-senior-engineer/"
 ---
 
 Major works on all kinds of technology at Red Hat, including artificial

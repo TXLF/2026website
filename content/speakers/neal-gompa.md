@@ -17,10 +17,15 @@ social:
 - name: "website"
   icon: "fa-solid fa-globe"
   link: "https://royalgeekworld.com/"
+link: "https://pretalx.com/txlf2026/speaker/W7PQUN/"
+current: true
+pretalx_code: "W7PQUN"
 
 talks:
   - title: "Bringing Fedora Linux to Apple Silicon Macs with Asahi Linux"
     link: "talks/bringing-fedora-linux-to-apple-silicon-macs-with-asahi-linux/"
+  - title: "Transactional Systems in the Fedora Ecosystem"
+    link: "talks/transactional-systems-in-the-fedora-ecosystem/"
 ---
 
 Neal is a developer and contributor in Fedora, Mageia, and openSUSE, focusing

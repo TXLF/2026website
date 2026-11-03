@@ -3,7 +3,6 @@ title: Kevin Purdy
 description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 designation: Technical Content Manager
-link: https://pretalx.com/txlf2026/speaker/XQUSBZ/
 image: https://pretalx.com/media/avatars/3PQDZT_rqvBkhh.webp
 featured: true
 
@@ -12,6 +11,13 @@ social:
     link: https://www.linkedin.com/in/kevin-purdy-b82176185/
   - icon: fa-brands fa-github
     link: https://github.com/kevinpurdy
+link: "https://pretalx.com/txlf2026/speaker/XQUSBZ/"
+current: true
+pretalx_code: "XQUSBZ"
+
+talks:
+  - title: "Recruit your friends into a backup cult!"
+    link: "talks/recruit-your-friends-into-a-backup-cult/"
 ---
 
 Kevin Purdy is the Technical Content Manager (read: blogger-in-chief) at

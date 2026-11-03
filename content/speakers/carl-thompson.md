@@ -10,10 +10,17 @@ social:
     link: https://www.linkedin.com/in/carl-thompson-2406109/
   - icon: fa-brands fa-x-twitter
     link: https://x.com/RedDragonRHCA
+link: "https://pretalx.com/txlf2026/speaker/Z9QMWY/"
+current: true
+pretalx_code: "Z9QMWY"
 
 talks:
-  - title: Demystifying SELinux
-    link: talks/demystifying-selinux/
+  - title: "Demystifying SELinux"
+    link: "talks/demystifying-selinux/"
+  - title: "Effective HA (High Availability) Architecting"
+    link: "talks/effective-ha-high-availability-architecting/"
+  - title: "Demystifying SELinux - The Lab"
+    link: "talks/demystifying-selinux-the-lab/"
 ---
 
 I am Carl "Redragon" Thompson.

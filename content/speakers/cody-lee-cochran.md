@@ -12,12 +12,17 @@ social:
     link: https://github.com/codrcodz
   - icon: fa-brands fa-gitlab
     link: https://gitlab.com/codrcodz
+link: "https://pretalx.com/txlf2026/speaker/QUKA8R/"
+current: true
+pretalx_code: "QUKA8R"
 
 talks:
   - title: "Bash Programming"
     link: "talks/bash-programming/"
   - title: "Pipelines as a Service: Codifying Workflows & Other Tribal Knowledge"
-    link: talks/pipelines-as-a-service-codifying-workflows-other-tribal-knowledge/
+    link: "talks/pipelines-as-a-service-codifying-workflows-other-tribal-knowledge/"
+  - title: "Agentic Infrastructure Lifecycle Management"
+    link: "talks/agentic-infrastructure-lifecycle-management/"
 ---
 
 Cody Lee Cochran is a Principal Engineer and Enterprise Architect for a small,

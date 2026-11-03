@@ -12,12 +12,17 @@ social:
     link: https://github.com/mralexjuarez
   - icon: fa-brands fa-x-twitter
     link: https://x.com/mralexjuarez
+link: "https://pretalx.com/txlf2026/speaker/M3EXWD/"
+current: true
+pretalx_code: "M3EXWD"
 
 talks:
   - title: "Things I wish I knew about containers sooner rather than later."
     link: "talks/things-i-wish-i-knew-about-containers-sooner-rather-than-later/"
   - title: "Keep it Local: Intro to learning Kubernetes using minikube"
-    link: talks/keep-it-local-intro-to-learning-kubernetes-using-minikube/
+    link: "talks/keep-it-local-intro-to-learning-kubernetes-using-minikube/"
+  - title: "Build a Local RAG Lab with Lima and Ollama"
+    link: "talks/build-a-local-rag-lab-with-lima-and-ollama/"
 ---
 
 Alex is an open-source enthusiast with over 25 years of experience in Linux,

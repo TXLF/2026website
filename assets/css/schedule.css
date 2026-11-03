@@ -4,6 +4,8 @@ html {
 
 .grid-schedule {
     display: grid;
+    /* columns and rows are set inline by the template, from the room count
+       and the hour range in data/schedule.yml */
     grid-template-columns: 1fr repeat(6, 3fr);
     grid-template-rows: 50px repeat(156, 10px);
     border: solid grey;
@@ -21,7 +23,7 @@ html {
 }
 
 .hour {
-    grid-column: 1/9;
+    grid-column: 1 / -1;
     border-top-color: grey;
     border-top-style: dotted;
     border-top-width: 1px;
@@ -44,7 +46,7 @@ html {
 #time-header {
     margin: 0;
     grid-column: 1;
-    grid-row: 1/156;
+    grid-row: 1 / -1;
     border-right-color: grey;
     border-right-style: dotted;
     border-right-width: 1px;

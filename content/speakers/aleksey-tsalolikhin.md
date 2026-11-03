@@ -14,10 +14,15 @@ social:
     link: https://github.com/atsaloli
   - icon: fa-brands fa-x-twitter
     link: https://x.com/atsaloli
+link: "https://pretalx.com/txlf2026/speaker/YGUEMD/"
+current: true
+pretalx_code: "YGUEMD"
 
 talks:
   - title: "Power Editing with Vi: Basics"
-    link: talks/power-editing-with-vi-basics/
+    link: "talks/power-editing-with-vi-basics/"
+  - title: "Power Editing with Vi: Basics"
+    link: "talks/power-editing-with-vi-basics-2026/"
 ---
 
 Aleksey Tsalolikhin started his IT career in tech support at EarthLink (ISP) in

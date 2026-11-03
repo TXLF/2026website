@@ -14,10 +14,11 @@ social:
     link: https://github.com/edolnx
   - icon: fa-brands fa-mastodon
     link: https://kind.social/@edolnx
+link: "https://pretalx.com/txlf2026/speaker/VZHNNV/"
 
 talks:
   - title: "Linux on RISC-V: Where we are, where we're going, and how you can jump in"
-    link: talks/linux-on-risc-v-where-we-are-where-were-going-and-how-you-can-jump-in/
+    link: "talks/linux-on-risc-v-where-we-are-where-were-going-and-how-you-can-jump-in/"
 ---
 
 Carl is a RISC-V Ambassador, organizer of the Austin RISC-V Group, but that's

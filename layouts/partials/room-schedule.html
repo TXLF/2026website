@@ -1,55 +1,45 @@
+{{/* Single-room view of one day, for the per-room signage pages.
+     Data comes from data/schedule.yml (see scripts/sync-pretalx.py). */}}
 {{ if hugo.Data.homepage.tab.enable }}
 {{ $tabnum := .Params.tabnum }}
 {{ $venue := .Params.venue }}
-{{ with hugo.Data.homepage.tab }}
+{{ $schedule := hugo.Data.schedule }}
+{{ $start_hour := $schedule.start_hour }}
+{{ $end_hour := $schedule.end_hour }}
+{{ $rows_per_hour := 12 }}
+{{ $total_rows := mul (sub $end_hour $start_hour) $rows_per_hour }}
 <section class="section schedule">
     <div class="schedule-contents">
-        {{ range $i,$p:= .tablist }}
+	{{ range $i, $day := $schedule.tablist }}
 	{{ if eq $i $tabnum }}
-	<div class="grid-schedule-day">
+	<div class="grid-schedule-day" style="grid-template-rows: 50px repeat({{ $total_rows }}, 10px);">
 	    <header id="time-header">Time</header>
 	    <header>{{ $venue }}</header>
 
-	    <div class="hour" style="grid-row: 2/14">9:00</div>
-	    <div class="hour" style="grid-row: 14/26">10:00</div>
-	    <div class="hour" style="grid-row: 26/38">11:00</div>
-	    <div class="hour" style="grid-row: 38/50">12:00</div>
-	    <div class="hour" style="grid-row: 50/62">13:00</div>
-	    <div class="hour" style="grid-row: 62/74">14:00</div>
-	    <div class="hour" style="grid-row: 74/86">15:00</div>
-	    <div class="hour" style="grid-row: 86/98">16:00</div>
-	    <div class="hour" style="grid-row: 98/110">17:00</div>
-	    <div class="hour" style="grid-row: 110/122">18:00</div>
+	    {{ range seq $start_hour (sub $end_hour 1) }}
+	    {{ $row := add (mul (sub . $start_hour) $rows_per_hour) 2 }}
+	    <div class="hour" style="grid-row: {{ $row }}/{{ add $row $rows_per_hour }}">{{ . }}:00</div>
+	    {{ end }}
 
-	    {{ $rows_per_hour := 12 }}
-	    {{ $start_hour := 9 }}
-	    {{ $end_hour := 18 }}
-
-	    {{ range .tablist_items }}
-	    {{ if eq .venue $venue }}
-	    {{ $times := findRESubmatch `((\d+):(\d+))[^\d]*((\d+):(\d+))` .time }}
-	    {{ $start_row := index (findRE `^\d+` .time) 0 | int}}
-	    {{ $start_row := cond (lt $start_row $start_hour ) (add $start_row 12) $start_row }}
-	    {{ $start_row := sub $start_row $start_hour }}
-	    {{ $start_row := add $start_row (div (index (findRE `:(\d+)` .time) 0 | last 2 | float) 60) }}
-
-	    {{ $start_row := add (mul $start_row $rows_per_hour) 2 | math.Round }}
-
-	    {{ $start_row := add (mul (add (sub .start_hour $start_hour) (div .start_minute 60.0)) $rows_per_hour) 2 }}
-	    {{ $end_row := add (mul (add (sub .end_hour $start_hour) (div .end_minute 60.0)) $rows_per_hour) 2 }}
+	    {{ range where $day.tablist_items "venue" $venue }}
+	    {{ $start_row := add (mul (add (sub .start_hour $start_hour) (div .start_minute 60.0)) $rows_per_hour) 2 | math.Round }}
+	    {{ $end_row := add (mul (add (sub .end_hour $start_hour) (div .end_minute 60.0)) $rows_per_hour) 2 | math.Round }}
 
 	    <div class="schedule-entry" style="grid-row: {{ $start_row }}/{{ $end_row }}; grid-column: 2">
-		<div class="speaker-name"><a href="{{ .speaker_link | relURL }}">{{ .speaker }}</a></div>
-		<div class="talk-subject"><a href="{{ .talk_link | relURL }}">{{ .subject }}</a></div>
+		{{ if .speaker }}
+		<div class="speaker-name">
+		    {{ if .speaker_link }}<a href="{{ .speaker_link | relURL }}">{{ .speaker }}</a>{{ else }}{{ .speaker }}{{ end }}
+		</div>
+		{{ end }}
+		<div class="talk-subject">
+		    {{ if .talk_link }}<a href="{{ .talk_link | relURL }}">{{ .subject }}</a>{{ else }}{{ .subject }}{{ end }}
+		</div>
 		<div class="talk-time">{{ .time }}</div>
 	    </div>
 	    {{ end }}
-	    {{ end }}
 	</div>
-
 	{{ end }}
 	{{ end }}
     </div>
 </section>
-{{ end }}
 {{ end }}

@@ -21,6 +21,7 @@ social:
 - name: "website"
   icon: "fa-solid fa-globe"
   link: "https://karlitschek.de/"
+link: "https://pretalx.com/txlf2026/speaker/ANWSZU/"
 
 talks:
   - title: "What the AI revolution means for Open Source, Open Tech and Open Societies"

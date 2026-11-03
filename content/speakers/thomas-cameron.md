@@ -14,14 +14,19 @@ social:
     link: https://bsky.app/profile/thomascameron512.bsky.social
   - icon: fa-brands fa-mastodon
     link: https://mastodon.online/@ThomasCameron512
+link: "https://pretalx.com/txlf2026/speaker/WN9C8S/"
+current: true
+pretalx_code: "WN9C8S"
 
 talks:
-  - title: Enterprise Automation with AWX (upstream for Ansible Automation Platform)
-    link: talks/enterprise-automation-with-awx/
-  - title: Learning OKD (upstream for Red Hat OpenShift) on premise
-    link: talks/learning-okd-on-premise/
-  - title: Getting Started with Ansible on Linux
-    link: talks/getting-started-with-ansible-on-linux/
+  - title: "Enterprise Automation with AWX (upstream for Ansible Automation Platform)"
+    link: "talks/enterprise-automation-with-awx/"
+  - title: "Learning OKD (upstream for Red Hat OpenShift) on premise"
+    link: "talks/learning-okd-on-premise/"
+  - title: "Getting Started with Ansible on Linux"
+    link: "talks/getting-started-with-ansible-on-linux/"
+  - title: "Enterprise Kubernetes at Home: A Homelabber's Guide to OKD"
+    link: "talks/enterprise-kubernetes-at-home-a-homelabbers-guide-to-okd/"
 ---
 
 Thomas Cameron has been in IT since 1993.  He started out with Novell NetWare,

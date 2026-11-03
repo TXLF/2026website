@@ -14,10 +14,15 @@ social:
     link: https://github.com/SNThrailkill
   - icon: fa-brands fa-mastodon
     link: https://techhub.social/@SNThrailkill
+link: "https://pretalx.com/txlf2026/speaker/BQHFKN/"
+current: true
+pretalx_code: "BQHFKN"
 
 talks:
-  - title: Create Your Own Bootable Container!
-    link: talks/create-your-own-bootable-container/
+  - title: "Create Your Own Bootable Container!"
+    link: "talks/create-your-own-bootable-container/"
+  - title: "Confidential Computing: Verifiable and Sealed OS Images"
+    link: "talks/confidential-computing-verifiable-and-sealed-os-images/"
 ---
 
 Sean is a Software Engineer with 15 years of experience who has a passion for

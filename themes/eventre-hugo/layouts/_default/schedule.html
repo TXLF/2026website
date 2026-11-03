@@ -1,6 +1,7 @@
 {{ define "main"}}
 
 {{ if hugo.Data.homepage.tab.enable }}
+{{ $tablist := hugo.Data.schedule.tablist }}
 {{ with hugo.Data.homepage.tab }}
 <section class="section schedule">
   <div class="container">
@@ -16,7 +17,7 @@
       <div class="col-12">
         <div class="schedule-tab">
           <ul class="nav nav-pills text-center">
-            {{ range $i,$p:= .tablist }}
+            {{ range $i,$p:= $tablist }}
             <li class="nav-item">
               <a class="nav-link {{if eq $i 0}} active {{end}}" href="#{{.name|urlize}}" data-toggle="pill">
                 {{.name}}
@@ -28,7 +29,7 @@
         </div>
         <div class="schedule-contents bg-schedule">
           <div class="tab-content" id="pills-tabContent">
-            {{ range $i,$p:= .tablist }}
+            {{ range $i,$p:= $tablist }}
             <div class="tab-pane fade {{if eq $i 0}}show active{{end}} schedule-item" id="{{.name | urlize}}">
               <!-- Headings -->
               <ul class="m-0 p-0">
@@ -57,7 +58,7 @@
                     </a>
                     {{ else }}
                     <div class="speaker">
-                      <img src="{{ .speaker_image | absURL }}" alt="{{.speaker}}" height="65" width="65">
+                      {{ with .speaker_image }}<img src="{{ . | absURL }}" alt="" height="65" width="65">{{ end }}
                       <span class="name">{{.speaker}}</span>
                     </div>
                     {{ end }}

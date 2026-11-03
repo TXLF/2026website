@@ -14,10 +14,15 @@ social:
     link: https://github.com/jjasghar
   - icon: fa-brands fa-bluesky
     link: https://bsky.app/profile/jjasghar.bsky.social
+link: "https://pretalx.com/txlf2026/speaker/WMKVXZ/"
+current: true
+pretalx_code: "WMKVXZ"
 
 talks:
-  - title: Using Open Source AI and Linux to help Medical School Students
-    link: talks/using-open-source-ai-and-linux-to-help-medical-school-students/
+  - title: "Using Open Source AI and Linux to help Medical School Students"
+    link: "talks/using-open-source-ai-and-linux-to-help-medical-school-students/"
+  - title: "Streamlining Enterprise‑Scale Open‑Source Governance with docassemble & Granite"
+    link: "talks/streamlining-enterprise-scale-open-source-governance-with-docassemble-granite/"
 ---
 
 JJ works as a Developer Advocate representing the IBM Cloud all over the world.

@@ -13,10 +13,15 @@ social:
 - name: "linkedin"
   icon: "fa-brands fa-linkedin"
   link: "https://www.linkedin.com/in/carlwgeorge/"
+link: "https://pretalx.com/txlf2026/speaker/RLVUTR/"
+current: true
+pretalx_code: "RLVUTR"
 
 talks:
   - title: "The Hitchhiker's Guide to the RHEL ecosystem"
     link: "talks/the-hitchhikers-guide-to-the-rhel-ecosystem/"
+  - title: "RPM Packaging Essentials"
+    link: "talks/rpm-packaging-essentials/"
 ---
 
 Carl George is the EPEL team lead in the Community Platform Engineering (CPE)
