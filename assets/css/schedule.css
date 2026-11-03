@@ -38,9 +38,29 @@ html {
 
 .schedule-entry {
     background-color: orange;
-    border: solid;
-    display: block;
-    overflow: auto;
+    border: 1px solid #333;
+    border-radius: 3px;
+    box-sizing: border-box;
+    padding: 2px 4px;
+    /* A block is only as tall as its slot, so its contents have to be ranked:
+       the speaker and the time always stay legible and the subject is what
+       gives way when a long title will not fit. */
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    font-size: 0.78rem;
+    line-height: 1.2;
+    color: #000;
+}
+
+.schedule-entry a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.schedule-entry a:hover,
+.schedule-entry a:focus {
+    text-decoration: underline;
 }
 
 #time-header {
@@ -52,10 +72,19 @@ html {
     border-right-width: 1px;
 }
 
+.speaker-name,
+.talk-time {
+    flex: 0 0 auto;
+}
+
 .speaker-name {
     font-weight: bold;
 }
 
 .talk-subject {
     font-style: italic;
+    flex: 0 1 auto;
+    min-height: 0;
+    overflow: hidden;
+    overflow-wrap: anywhere;
 }
