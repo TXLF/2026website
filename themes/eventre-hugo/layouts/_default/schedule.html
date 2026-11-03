@@ -52,7 +52,7 @@
                     {{ if .speaker_link }}
                     <a href="{{ .speaker_link | absURL }}">
                       <div class="speaker">
-                        <img src="{{ .speaker_image | absURL }}" alt="{{.speaker}}" height="65" width="65">
+                        {{ if .speaker_image }}<img src="{{ .speaker_image | absURL }}" alt="{{ .speaker }}" height="65" width="65">{{ end }}
                         <span class="name">{{.speaker}}</span>
                       </div>
                     </a>

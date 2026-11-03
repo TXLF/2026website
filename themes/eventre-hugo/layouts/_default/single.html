@@ -11,7 +11,7 @@
 					<!-- Article -->
 					<article class="blog-post single">
 						<div class="post-thumb">
-							<img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="img-fluid w-100">
+							{{ if .Params.image }}<img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="img-fluid w-100">{{ end }}
 						</div>
 						<div class="post-content">
 							<div class="date">

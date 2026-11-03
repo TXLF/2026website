@@ -13,7 +13,7 @@
 				<!-- Speaker 1 -->
 				<div class="speaker-item">
 					<div class="image">
-						<img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="img-fluid">
+						{{ if .Params.image }}<img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="img-fluid">{{ end }}
 						<div class="primary-overlay"></div>
 						<div class="socials">
 							<ul class="list-inline">

@@ -15,7 +15,7 @@
 							<div class="blog-post">
 								<div class="post-thumb">
 									<a href="{{ .Permalink }}">
-										<img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="img-fluid">
+										{{ if .Params.image }}<img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="img-fluid">{{ end }}
 									</a>
 								</div>
 								<div class="post-content">
