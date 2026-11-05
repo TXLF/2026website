@@ -153,7 +153,7 @@ hasChildren = true
 
 [[menu.main]]
 name = "Schedule"
-url = "https://pretalx.com/txlf2026/schedule/"
+url = "schedule/"
 weight = 4
 
 [[menu.main]]
